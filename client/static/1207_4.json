@@ -1,0 +1,10082 @@
+[
+  {
+    "line_id": 31,
+    "car_flag": 42029,
+    "trans_direction": 1,
+    "station_no": 0,
+    "date": 20210121160748
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42029,
+    "trans_direction": 1,
+    "station_no": 1,
+    "date": 20210121160803
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42029,
+    "trans_direction": 1,
+    "station_no": 2,
+    "date": 20210121160933
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42029,
+    "trans_direction": 1,
+    "station_no": 3,
+    "date": 20210121161103
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42029,
+    "trans_direction": 1,
+    "station_no": 4,
+    "date": 20210121161233
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42029,
+    "trans_direction": 1,
+    "station_no": 5,
+    "date": 20210121161403
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42029,
+    "trans_direction": 1,
+    "station_no": 6,
+    "date": 20210121161518
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42029,
+    "trans_direction": 1,
+    "station_no": 7,
+    "date": 20210121161710
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42029,
+    "trans_direction": 1,
+    "station_no": 8,
+    "date": 20210121161818
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42029,
+    "trans_direction": 1,
+    "station_no": 9,
+    "date": 20210121161918
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42029,
+    "trans_direction": 1,
+    "station_no": 10,
+    "date": 20210121162018
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42029,
+    "trans_direction": 1,
+    "station_no": 11,
+    "date": 20210121162133
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42029,
+    "trans_direction": 1,
+    "station_no": 12,
+    "date": 20210121162233
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42029,
+    "trans_direction": 1,
+    "station_no": 13,
+    "date": 20210121162348
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42029,
+    "trans_direction": 1,
+    "station_no": 14,
+    "date": 20210121162618
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42029,
+    "trans_direction": 1,
+    "station_no": 15,
+    "date": 20210121163048
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42029,
+    "trans_direction": 1,
+    "station_no": 16,
+    "date": 20210121163703
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42029,
+    "trans_direction": 1,
+    "station_no": 17,
+    "date": 20210121164103
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42029,
+    "trans_direction": 1,
+    "station_no": 18,
+    "date": 20210121164333
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42029,
+    "trans_direction": 1,
+    "station_no": 19,
+    "date": 20210121164434
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42029,
+    "trans_direction": 1,
+    "station_no": 20,
+    "date": 20210121164710
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42029,
+    "trans_direction": 1,
+    "station_no": 21,
+    "date": 20210121164919
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42029,
+    "trans_direction": 1,
+    "station_no": 22,
+    "date": 20210121165019
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42029,
+    "trans_direction": 1,
+    "station_no": 23,
+    "date": 20210121165319
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42029,
+    "trans_direction": 0,
+    "station_no": 0,
+    "date": 20210121170510
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42029,
+    "trans_direction": 0,
+    "station_no": 1,
+    "date": 20210121170719
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42029,
+    "trans_direction": 0,
+    "station_no": 2,
+    "date": 20210121170919
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42029,
+    "trans_direction": 0,
+    "station_no": 3,
+    "date": 20210121171119
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42029,
+    "trans_direction": 0,
+    "station_no": 4,
+    "date": 20210121171734
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42029,
+    "trans_direction": 0,
+    "station_no": 5,
+    "date": 20210121171919
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42029,
+    "trans_direction": 0,
+    "station_no": 6,
+    "date": 20210121172134
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42029,
+    "trans_direction": 0,
+    "station_no": 7,
+    "date": 20210121172849
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42029,
+    "trans_direction": 0,
+    "station_no": 8,
+    "date": 20210121173234
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42029,
+    "trans_direction": 0,
+    "station_no": 9,
+    "date": 20210121173634
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42029,
+    "trans_direction": 0,
+    "station_no": 10,
+    "date": 20210121173819
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42029,
+    "trans_direction": 0,
+    "station_no": 11,
+    "date": 20210121173934
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42029,
+    "trans_direction": 0,
+    "station_no": 12,
+    "date": 20210121174034
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42029,
+    "trans_direction": 0,
+    "station_no": 13,
+    "date": 20210121174150
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42029,
+    "trans_direction": 0,
+    "station_no": 14,
+    "date": 20210121174320
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42029,
+    "trans_direction": 0,
+    "station_no": 15,
+    "date": 20210121174420
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42029,
+    "trans_direction": 0,
+    "station_no": 16,
+    "date": 20210121174550
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42029,
+    "trans_direction": 0,
+    "station_no": 17,
+    "date": 20210121174735
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42029,
+    "trans_direction": 0,
+    "station_no": 18,
+    "date": 20210121174910
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42029,
+    "trans_direction": 0,
+    "station_no": 19,
+    "date": 20210121175020
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42029,
+    "trans_direction": 0,
+    "station_no": 20,
+    "date": 20210121175251
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42029,
+    "trans_direction": 0,
+    "station_no": 21,
+    "date": 20210121175351
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42029,
+    "trans_direction": 0,
+    "station_no": 22,
+    "date": 20210121175521
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42029,
+    "trans_direction": 0,
+    "station_no": 23,
+    "date": 20210121175621
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42029,
+    "trans_direction": 0,
+    "station_no": 0,
+    "date": 20210121185951
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42029,
+    "trans_direction": 0,
+    "station_no": 1,
+    "date": 20210121190136
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42029,
+    "trans_direction": 0,
+    "station_no": 2,
+    "date": 20210121190336
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42029,
+    "trans_direction": 0,
+    "station_no": 3,
+    "date": 20210121190621
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42029,
+    "trans_direction": 0,
+    "station_no": 4,
+    "date": 20210121191021
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42029,
+    "trans_direction": 0,
+    "station_no": 5,
+    "date": 20210121191136
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42029,
+    "trans_direction": 0,
+    "station_no": 6,
+    "date": 20210121191406
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42029,
+    "trans_direction": 0,
+    "station_no": 7,
+    "date": 20210121191806
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42029,
+    "trans_direction": 0,
+    "station_no": 8,
+    "date": 20210121192110
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42029,
+    "trans_direction": 0,
+    "station_no": 9,
+    "date": 20210121192336
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42029,
+    "trans_direction": 0,
+    "station_no": 10,
+    "date": 20210121192521
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42029,
+    "trans_direction": 0,
+    "station_no": 11,
+    "date": 20210121192621
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42029,
+    "trans_direction": 0,
+    "station_no": 12,
+    "date": 20210121192710
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42029,
+    "trans_direction": 0,
+    "station_no": 13,
+    "date": 20210121192821
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42029,
+    "trans_direction": 0,
+    "station_no": 14,
+    "date": 20210121192910
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42029,
+    "trans_direction": 0,
+    "station_no": 15,
+    "date": 20210121193021
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42029,
+    "trans_direction": 0,
+    "station_no": 16,
+    "date": 20210121193136
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42029,
+    "trans_direction": 0,
+    "station_no": 17,
+    "date": 20210121193310
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42029,
+    "trans_direction": 0,
+    "station_no": 18,
+    "date": 20210121193451
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42029,
+    "trans_direction": 0,
+    "station_no": 19,
+    "date": 20210121193606
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42029,
+    "trans_direction": 0,
+    "station_no": 20,
+    "date": 20210121193821
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42029,
+    "trans_direction": 0,
+    "station_no": 21,
+    "date": 20210121193921
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42029,
+    "trans_direction": 0,
+    "station_no": 22,
+    "date": 20210121194036
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42029,
+    "trans_direction": 0,
+    "station_no": 23,
+    "date": 20210121194110
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 0,
+    "date": 20201209164509
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 1,
+    "date": 20201209164539
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 2,
+    "date": 20201209164740
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 3,
+    "date": 20201209165009
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 4,
+    "date": 20201209165509
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 5,
+    "date": 20201209165625
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 6,
+    "date": 20201209165809
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 7,
+    "date": 20201209170254
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 8,
+    "date": 20201209170724
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 9,
+    "date": 20201209171139
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 10,
+    "date": 20201209171324
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 11,
+    "date": 20201209171440
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 12,
+    "date": 20201209171554
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 13,
+    "date": 20201209171710
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 14,
+    "date": 20201209171809
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 15,
+    "date": 20201209171910
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 16,
+    "date": 20201209172054
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 17,
+    "date": 20201209172224
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 18,
+    "date": 20201209172409
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 19,
+    "date": 20201209172539
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 20,
+    "date": 20201209172739
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 21,
+    "date": 20201209172854
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 22,
+    "date": 20201209173025
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 23,
+    "date": 20201209173110
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 0,
+    "date": 20201209173954
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 1,
+    "date": 20201209174125
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 2,
+    "date": 20201209174324
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 3,
+    "date": 20201209174454
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 4,
+    "date": 20201209174724
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 5,
+    "date": 20201209174925
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 6,
+    "date": 20201209175039
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 7,
+    "date": 20201209175224
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 8,
+    "date": 20201209175354
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 9,
+    "date": 20201209175454
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 10,
+    "date": 20201209175609
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 11,
+    "date": 20201209175709
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 12,
+    "date": 20201209175840
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 13,
+    "date": 20201209180024
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 14,
+    "date": 20201209180254
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 15,
+    "date": 20201209180609
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 16,
+    "date": 20201209181409
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 17,
+    "date": 20201209182024
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 18,
+    "date": 20201209182254
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 19,
+    "date": 20201209182409
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 20,
+    "date": 20201209183009
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 21,
+    "date": 20201209183224
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 22,
+    "date": 20201209183340
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 23,
+    "date": 20201209183540
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 0,
+    "date": 20201209183941
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 1,
+    "date": 20201209184211
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 2,
+    "date": 20201209184357
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 3,
+    "date": 20201209184512
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 4,
+    "date": 20201209185211
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 5,
+    "date": 20201209185341
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 6,
+    "date": 20201209190126
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 7,
+    "date": 20201209190742
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 8,
+    "date": 20201209191113
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 9,
+    "date": 20201209191412
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 10,
+    "date": 20201209191542
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 11,
+    "date": 20201209191627
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 12,
+    "date": 20201209191742
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 13,
+    "date": 20201209191842
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 14,
+    "date": 20201209191913
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 15,
+    "date": 20201209192028
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 16,
+    "date": 20201209192157
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 17,
+    "date": 20201209192312
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 18,
+    "date": 20201209192457
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 19,
+    "date": 20201209192557
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 20,
+    "date": 20201209192828
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 21,
+    "date": 20201209192942
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 22,
+    "date": 20201209193043
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 23,
+    "date": 20201209193127
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 0,
+    "date": 20201210064418
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 1,
+    "date": 20201210064518
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 2,
+    "date": 20201210064703
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 3,
+    "date": 20201210064818
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 4,
+    "date": 20201210065034
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 5,
+    "date": 20201210065219
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 6,
+    "date": 20201210065319
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 7,
+    "date": 20201210065519
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 8,
+    "date": 20201210065649
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 9,
+    "date": 20201210065749
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 10,
+    "date": 20201210065834
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 11,
+    "date": 20201210065949
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 12,
+    "date": 20201210070049
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 13,
+    "date": 20201210070204
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 14,
+    "date": 20201210070349
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 15,
+    "date": 20201210070649
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 16,
+    "date": 20201210071335
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 17,
+    "date": 20201210071735
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 18,
+    "date": 20201210072150
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 19,
+    "date": 20201210072320
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 20,
+    "date": 20201210072605
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 21,
+    "date": 20201210072750
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 22,
+    "date": 20201210072850
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 23,
+    "date": 20201210073105
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 0,
+    "date": 20201210073807
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 1,
+    "date": 20201210074005
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 2,
+    "date": 20201210074220
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 3,
+    "date": 20201210074505
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 4,
+    "date": 20201210074905
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 5,
+    "date": 20201210075050
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 6,
+    "date": 20201210075350
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 7,
+    "date": 20201210080050
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 8,
+    "date": 20201210080535
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 9,
+    "date": 20201210080942
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 10,
+    "date": 20201210081135
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 11,
+    "date": 20201210081250
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 12,
+    "date": 20201210081405
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 13,
+    "date": 20201210081505
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 14,
+    "date": 20201210081636
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 15,
+    "date": 20201210081721
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 16,
+    "date": 20201210081851
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 17,
+    "date": 20201210082036
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 18,
+    "date": 20201210082221
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 19,
+    "date": 20201210082336
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 20,
+    "date": 20201210082636
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 21,
+    "date": 20201210082738
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 22,
+    "date": 20201210082906
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 23,
+    "date": 20201210082936
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 0,
+    "date": 20201210083006
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 1,
+    "date": 20201210083351
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 2,
+    "date": 20201210083521
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 3,
+    "date": 20201210083706
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 4,
+    "date": 20201210083937
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 5,
+    "date": 20201210084107
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 6,
+    "date": 20201210084222
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 7,
+    "date": 20201210084407
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 8,
+    "date": 20201210084722
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 9,
+    "date": 20201210084722
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 10,
+    "date": 20201210084807
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 11,
+    "date": 20201210085007
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 12,
+    "date": 20201210085107
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 13,
+    "date": 20201210085252
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 14,
+    "date": 20201210085507
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 15,
+    "date": 20201210085822
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 16,
+    "date": 20201210090437
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 17,
+    "date": 20201210090622
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 18,
+    "date": 20201210090837
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 19,
+    "date": 20201210091022
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 20,
+    "date": 20201210091252
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 21,
+    "date": 20201210091552
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 22,
+    "date": 20201210091707
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 23,
+    "date": 20201210091952
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 0,
+    "date": 20201210094022
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 1,
+    "date": 20201210094252
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 2,
+    "date": 20201210094452
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 3,
+    "date": 20201210094722
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 4,
+    "date": 20201210095052
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 5,
+    "date": 20201210095207
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 6,
+    "date": 20201210095407
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 7,
+    "date": 20201210100107
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 8,
+    "date": 20201210100437
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 9,
+    "date": 20201210100707
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 10,
+    "date": 20201210100952
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 11,
+    "date": 20201210101152
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 12,
+    "date": 20201210101252
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 13,
+    "date": 20201210101422
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 14,
+    "date": 20201210101607
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 15,
+    "date": 20201210101737
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 16,
+    "date": 20201210101852
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 17,
+    "date": 20201210102037
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 18,
+    "date": 20201210102222
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 19,
+    "date": 20201210102337
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 20,
+    "date": 20201210102622
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 21,
+    "date": 20201210102722
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 22,
+    "date": 20201210102837
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 23,
+    "date": 20201210102922
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 0,
+    "date": 20201210103007
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 1,
+    "date": 20201210103253
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 2,
+    "date": 20201210103453
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 3,
+    "date": 20201210103553
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 4,
+    "date": 20201210103823
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 5,
+    "date": 20201210104009
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 6,
+    "date": 20201210104124
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 7,
+    "date": 20201210104254
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 8,
+    "date": 20201210104405
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 9,
+    "date": 20201210104509
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 10,
+    "date": 20201210104624
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 11,
+    "date": 20201210104754
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 12,
+    "date": 20201210104854
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 13,
+    "date": 20201210105054
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 14,
+    "date": 20201210105239
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 15,
+    "date": 20201210105605
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 16,
+    "date": 20201210110055
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 17,
+    "date": 20201210110405
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 18,
+    "date": 20201210110611
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 19,
+    "date": 20201210110711
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 20,
+    "date": 20201210110926
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 21,
+    "date": 20201210111111
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 22,
+    "date": 20201210111256
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 23,
+    "date": 20201210111526
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 0,
+    "date": 20201210142954
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 1,
+    "date": 20201210143108
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 2,
+    "date": 20201210143324
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 3,
+    "date": 20201210143453
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 4,
+    "date": 20201210143909
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 5,
+    "date": 20201210144008
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 6,
+    "date": 20201210144239
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 7,
+    "date": 20201210144509
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 8,
+    "date": 20201210144823
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 9,
+    "date": 20201210145053
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 10,
+    "date": 20201210145253
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 11,
+    "date": 20201210145324
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 12,
+    "date": 20201210145440
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 13,
+    "date": 20201210145608
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 14,
+    "date": 20201210145723
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 15,
+    "date": 20201210145808
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 16,
+    "date": 20201210145924
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 17,
+    "date": 20201210150110
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 18,
+    "date": 20201210150225
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 19,
+    "date": 20201210150340
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 20,
+    "date": 20201210150554
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 21,
+    "date": 20201210150639
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 22,
+    "date": 20201210150810
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 23,
+    "date": 20201210150840
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 0,
+    "date": 20201210151941
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 1,
+    "date": 20201210152010
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 2,
+    "date": 20201210152155
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 3,
+    "date": 20201210152255
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 4,
+    "date": 20201210152510
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 5,
+    "date": 20201210152640
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 6,
+    "date": 20201210152810
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 7,
+    "date": 20201210152940
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 8,
+    "date": 20201210153056
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 9,
+    "date": 20201210153156
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 10,
+    "date": 20201210153257
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 11,
+    "date": 20201210153357
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 12,
+    "date": 20201210153512
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 13,
+    "date": 20201210153627
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 14,
+    "date": 20201210153757
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 15,
+    "date": 20201210154039
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 16,
+    "date": 20201210154527
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 17,
+    "date": 20201210154913
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 18,
+    "date": 20201210155127
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 19,
+    "date": 20201210155213
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 20,
+    "date": 20201210155428
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 21,
+    "date": 20201210155657
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 22,
+    "date": 20201210155812
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 23,
+    "date": 20201210160012
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 0,
+    "date": 20201210162458
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 1,
+    "date": 20201210162743
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 2,
+    "date": 20201210162944
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 3,
+    "date": 20201210163213
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 4,
+    "date": 20201210163629
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 5,
+    "date": 20201210163758
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 6,
+    "date": 20201210164043
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 7,
+    "date": 20201210164443
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 8,
+    "date": 20201210164813
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 9,
+    "date": 20201210165114
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 10,
+    "date": 20201210165328
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 11,
+    "date": 20201210165439
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 12,
+    "date": 20201210165528
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 13,
+    "date": 20201210165714
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 14,
+    "date": 20201210165759
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 15,
+    "date": 20201210165929
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 16,
+    "date": 20201210170044
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 17,
+    "date": 20201210170215
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 18,
+    "date": 20201210170345
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 19,
+    "date": 20201210170500
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 20,
+    "date": 20201210170645
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 21,
+    "date": 20201210170816
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 22,
+    "date": 20201210170931
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 23,
+    "date": 20201210171001
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 0,
+    "date": 20201210172001
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 1,
+    "date": 20201210172016
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 2,
+    "date": 20201210172202
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 3,
+    "date": 20201210172317
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 4,
+    "date": 20201210172516
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 5,
+    "date": 20201210172701
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 6,
+    "date": 20201210172801
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 7,
+    "date": 20201210172946
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 8,
+    "date": 20201210173102
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 9,
+    "date": 20201210173216
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 10,
+    "date": 20201210173316
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 11,
+    "date": 20201210173440
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 12,
+    "date": 20201210173547
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 13,
+    "date": 20201210173717
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 14,
+    "date": 20201210173901
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 15,
+    "date": 20201210174502
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 16,
+    "date": 20201210175402
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 17,
+    "date": 20201210175817
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 18,
+    "date": 20201210180039
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 19,
+    "date": 20201210180146
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 20,
+    "date": 20201210180446
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 21,
+    "date": 20201210180747
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 22,
+    "date": 20201210181002
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 23,
+    "date": 20201210181216
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 0,
+    "date": 20201210182446
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 1,
+    "date": 20201210182640
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 2,
+    "date": 20201210182831
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 3,
+    "date": 20201210183132
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 4,
+    "date": 20201210183831
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 5,
+    "date": 20201210183932
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 6,
+    "date": 20201210184347
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 7,
+    "date": 20201210185158
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 8,
+    "date": 20201210185532
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 9,
+    "date": 20201210185902
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 10,
+    "date": 20201210190047
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 11,
+    "date": 20201210190203
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 12,
+    "date": 20201210190317
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 13,
+    "date": 20201210190418
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 14,
+    "date": 20201210190518
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 15,
+    "date": 20201210190619
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 16,
+    "date": 20201210190719
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 17,
+    "date": 20201210190848
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 18,
+    "date": 20201210191049
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 19,
+    "date": 20201210191148
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 20,
+    "date": 20201210191434
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 21,
+    "date": 20201210191511
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 22,
+    "date": 20201210191634
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 23,
+    "date": 20201210191719
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 0,
+    "date": 20201211063153
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 1,
+    "date": 20201211063223
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 2,
+    "date": 20201211063423
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 3,
+    "date": 20201211063608
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 4,
+    "date": 20201211063853
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 5,
+    "date": 20201211064023
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 6,
+    "date": 20201211064153
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 7,
+    "date": 20201211064323
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 8,
+    "date": 20201211064508
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 9,
+    "date": 20201211064608
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 10,
+    "date": 20201211064723
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 11,
+    "date": 20201211064838
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 12,
+    "date": 20201211064938
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 13,
+    "date": 20201211065108
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 14,
+    "date": 20201211065238
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 15,
+    "date": 20201211065623
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 16,
+    "date": 20201211070238
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 17,
+    "date": 20201211070553
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 18,
+    "date": 20201211070753
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 19,
+    "date": 20201211070923
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 20,
+    "date": 20201211071138
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 21,
+    "date": 20201211071323
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 22,
+    "date": 20201211071523
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 23,
+    "date": 20201211071723
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 0,
+    "date": 20201211072353
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 1,
+    "date": 20201211072638
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 2,
+    "date": 20201211072838
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 3,
+    "date": 20201211073123
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 4,
+    "date": 20201211073607
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 5,
+    "date": 20201211073753
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 6,
+    "date": 20201211074023
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 7,
+    "date": 20201211074838
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 8,
+    "date": 20201211075323
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 9,
+    "date": 20201211075823
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 10,
+    "date": 20201211080053
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 11,
+    "date": 20201211080223
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 12,
+    "date": 20201211080353
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 13,
+    "date": 20201211080453
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 14,
+    "date": 20201211080608
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 15,
+    "date": 20201211080723
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 16,
+    "date": 20201211080853
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 17,
+    "date": 20201211081023
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 18,
+    "date": 20201211081223
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 19,
+    "date": 20201211081323
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 20,
+    "date": 20201211081624
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 21,
+    "date": 20201211081744
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 22,
+    "date": 20201211081939
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 23,
+    "date": 20201211082039
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 0,
+    "date": 20201211082124
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 1,
+    "date": 20201211082639
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 2,
+    "date": 20201211082924
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 3,
+    "date": 20201211083109
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 4,
+    "date": 20201211083309
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 5,
+    "date": 20201211083454
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 6,
+    "date": 20201211083609
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 7,
+    "date": 20201211083824
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 8,
+    "date": 20201211084024
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 9,
+    "date": 20201211084124
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 10,
+    "date": 20201211084309
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 11,
+    "date": 20201211084439
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 12,
+    "date": 20201211084639
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 13,
+    "date": 20201211084807
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 14,
+    "date": 20201211085109
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 15,
+    "date": 20201211085424
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 16,
+    "date": 20201211090039
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 17,
+    "date": 20201211090339
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 18,
+    "date": 20201211090554
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 19,
+    "date": 20201211090724
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 20,
+    "date": 20201211091009
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 21,
+    "date": 20201211091224
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 22,
+    "date": 20201211091409
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 23,
+    "date": 20201211091554
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 0,
+    "date": 20201211092454
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 1,
+    "date": 20201211092740
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 2,
+    "date": 20201211092910
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 3,
+    "date": 20201211093040
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 4,
+    "date": 20201211093455
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 5,
+    "date": 20201211093610
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 6,
+    "date": 20201211093955
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 7,
+    "date": 20201211094740
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 8,
+    "date": 20201211095155
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 9,
+    "date": 20201211095525
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 10,
+    "date": 20201211095740
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 11,
+    "date": 20201211095940
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 12,
+    "date": 20201211100055
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 13,
+    "date": 20201211100225
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 14,
+    "date": 20201211100340
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 15,
+    "date": 20201211100455
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 16,
+    "date": 20201211100625
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 17,
+    "date": 20201211100810
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 18,
+    "date": 20201211100955
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 19,
+    "date": 20201211101110
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 20,
+    "date": 20201211101410
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 21,
+    "date": 20201211101510
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 22,
+    "date": 20201211101655
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 23,
+    "date": 20201211101725
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 0,
+    "date": 20201211102007
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 1,
+    "date": 20201211102055
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 2,
+    "date": 20201211102240
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 3,
+    "date": 20201211102325
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 4,
+    "date": 20201211102510
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 5,
+    "date": 20201211102610
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 6,
+    "date": 20201211102725
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 7,
+    "date": 20201211102840
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 8,
+    "date": 20201211102940
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 9,
+    "date": 20201211103040
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 10,
+    "date": 20201211103110
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 11,
+    "date": 20201211103225
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 12,
+    "date": 20201211103255
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 13,
+    "date": 20201211103355
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 14,
+    "date": 20201211103607
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 15,
+    "date": 20201211103940
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 16,
+    "date": 20201211104555
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 17,
+    "date": 20201211104825
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 18,
+    "date": 20201211105110
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 19,
+    "date": 20201211105240
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 20,
+    "date": 20201211105525
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 21,
+    "date": 20201211105755
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 22,
+    "date": 20201211105926
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 23,
+    "date": 20201211110211
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 0,
+    "date": 20201211110544
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 1,
+    "date": 20201211110856
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 2,
+    "date": 20201211111111
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 3,
+    "date": 20201211111226
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 4,
+    "date": 20201211111556
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 5,
+    "date": 20201211111711
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 6,
+    "date": 20201211112011
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 7,
+    "date": 20201211112241
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 8,
+    "date": 20201211112611
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 9,
+    "date": 20201211112956
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 10,
+    "date": 20201211113226
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 11,
+    "date": 20201211113411
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 12,
+    "date": 20201211113526
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 13,
+    "date": 20201211113641
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 14,
+    "date": 20201211113741
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 15,
+    "date": 20201211113911
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 16,
+    "date": 20201211114041
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 17,
+    "date": 20201211114226
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 18,
+    "date": 20201211114411
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 19,
+    "date": 20201211114526
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 20,
+    "date": 20201211114741
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 21,
+    "date": 20201211114856
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 22,
+    "date": 20201211115026
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 23,
+    "date": 20201211115111
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 0,
+    "date": 20201211115207
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 1,
+    "date": 20201211115441
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 2,
+    "date": 20201211115626
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 3,
+    "date": 20201211115741
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 4,
+    "date": 20201211115943
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 5,
+    "date": 20201211120128
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 6,
+    "date": 20201211120243
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 7,
+    "date": 20201211120428
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 8,
+    "date": 20201211120543
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 9,
+    "date": 20201211120643
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 10,
+    "date": 20201211120743
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 11,
+    "date": 20201211120828
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 12,
+    "date": 20201211121013
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 13,
+    "date": 20201211121128
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 14,
+    "date": 20201211121258
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 15,
+    "date": 20201211121628
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 16,
+    "date": 20201211122058
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 17,
+    "date": 20201211122528
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 18,
+    "date": 20201211122758
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 19,
+    "date": 20201211122958
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 20,
+    "date": 20201211123213
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 21,
+    "date": 20201211123413
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 22,
+    "date": 20201211123613
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 23,
+    "date": 20201211123807
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 0,
+    "date": 20201211142005
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 1,
+    "date": 20201211142035
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 2,
+    "date": 20201211142235
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 3,
+    "date": 20201211142405
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 4,
+    "date": 20201211142606
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 5,
+    "date": 20201211142751
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 6,
+    "date": 20201211142851
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 7,
+    "date": 20201211143036
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 8,
+    "date": 20201211143136
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 9,
+    "date": 20201211143221
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 10,
+    "date": 20201211143336
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 11,
+    "date": 20201211143451
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 12,
+    "date": 20201211143536
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 13,
+    "date": 20201211143751
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 14,
+    "date": 20201211143936
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 15,
+    "date": 20201211144251
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 16,
+    "date": 20201211144806
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 17,
+    "date": 20201211145136
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 18,
+    "date": 20201211145352
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 19,
+    "date": 20201211145450
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 20,
+    "date": 20201211145707
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 21,
+    "date": 20201211145922
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 22,
+    "date": 20201211150022
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 23,
+    "date": 20201211150307
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 0,
+    "date": 20201211181006
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 1,
+    "date": 20201211181328
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 2,
+    "date": 20201211181543
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 3,
+    "date": 20201211181814
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 4,
+    "date": 20201211182613
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 5,
+    "date": 20201211182743
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 6,
+    "date": 20201211183528
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 7,
+    "date": 20201211184858
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 8,
+    "date": 20201211185343
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 9,
+    "date": 20201211185728
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 10,
+    "date": 20201211185913
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 11,
+    "date": 20201211190014
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 12,
+    "date": 20201211190043
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 13,
+    "date": 20201211190202
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 14,
+    "date": 20201211190313
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 15,
+    "date": 20201211190414
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 16,
+    "date": 20201211190513
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 17,
+    "date": 20201211190628
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 18,
+    "date": 20201211190828
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 19,
+    "date": 20201211190928
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 20,
+    "date": 20201211191214
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 21,
+    "date": 20201211191328
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 22,
+    "date": 20201211191428
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 23,
+    "date": 20201211191513
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 0,
+    "date": 20201212062024
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 1,
+    "date": 20201212062124
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 2,
+    "date": 20201212062309
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 3,
+    "date": 20201212062424
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 4,
+    "date": 20201212062624
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 5,
+    "date": 20201212062754
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 6,
+    "date": 20201212062924
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 7,
+    "date": 20201212063055
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 8,
+    "date": 20201212063224
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 9,
+    "date": 20201212063324
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 10,
+    "date": 20201212063409
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 11,
+    "date": 20201212063539
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 12,
+    "date": 20201212063639
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 13,
+    "date": 20201212063754
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 14,
+    "date": 20201212064024
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 15,
+    "date": 20201212064254
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 16,
+    "date": 20201212064725
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 17,
+    "date": 20201212064955
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 18,
+    "date": 20201212065138
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 19,
+    "date": 20201212065255
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 20,
+    "date": 20201212065441
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 21,
+    "date": 20201212065626
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 22,
+    "date": 20201212065726
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 23,
+    "date": 20201212065941
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 0,
+    "date": 20201212071003
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 1,
+    "date": 20201212071126
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 2,
+    "date": 20201212071311
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 3,
+    "date": 20201212071526
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 4,
+    "date": 20201212071856
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 5,
+    "date": 20201212072011
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 6,
+    "date": 20201212072241
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 7,
+    "date": 20201212072526
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 8,
+    "date": 20201212072857
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 9,
+    "date": 20201212073142
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 10,
+    "date": 20201212073327
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 11,
+    "date": 20201212073427
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 12,
+    "date": 20201212073512
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 13,
+    "date": 20201212073557
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 14,
+    "date": 20201212073657
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 15,
+    "date": 20201212073812
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 16,
+    "date": 20201212073927
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 17,
+    "date": 20201212074057
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 18,
+    "date": 20201212074242
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 19,
+    "date": 20201212074342
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 20,
+    "date": 20201212074557
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 21,
+    "date": 20201212074642
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 22,
+    "date": 20201212074757
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 23,
+    "date": 20201212074842
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 0,
+    "date": 20201212075812
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 1,
+    "date": 20201212075820
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 2,
+    "date": 20201212075957
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 3,
+    "date": 20201212080127
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 4,
+    "date": 20201212080313
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 5,
+    "date": 20201212080512
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 6,
+    "date": 20201212080628
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 7,
+    "date": 20201212080757
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 8,
+    "date": 20201212080927
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 9,
+    "date": 20201212081012
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 10,
+    "date": 20201212081112
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 11,
+    "date": 20201212081239
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 12,
+    "date": 20201212081342
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 13,
+    "date": 20201212081513
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 14,
+    "date": 20201212081712
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 15,
+    "date": 20201212082012
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 16,
+    "date": 20201212082512
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 17,
+    "date": 20201212082712
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 18,
+    "date": 20201212082857
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 19,
+    "date": 20201212082957
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 20,
+    "date": 20201212083157
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 21,
+    "date": 20201212083358
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 22,
+    "date": 20201212083513
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 23,
+    "date": 20201212083813
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 0,
+    "date": 20201212092958
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 1,
+    "date": 20201212093158
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 2,
+    "date": 20201212093443
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 3,
+    "date": 20201212093643
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 4,
+    "date": 20201212094143
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 5,
+    "date": 20201212094313
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 6,
+    "date": 20201212094528
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 7,
+    "date": 20201212094958
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 8,
+    "date": 20201212095314
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 9,
+    "date": 20201212095728
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 10,
+    "date": 20201212095928
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 11,
+    "date": 20201212100143
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 12,
+    "date": 20201212100243
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 13,
+    "date": 20201212100428
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 14,
+    "date": 20201212100543
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 15,
+    "date": 20201212100643
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 16,
+    "date": 20201212100813
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 17,
+    "date": 20201212100958
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 18,
+    "date": 20201212101143
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 19,
+    "date": 20201212101244
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 20,
+    "date": 20201212101528
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 21,
+    "date": 20201212101643
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 22,
+    "date": 20201212101844
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 23,
+    "date": 20201212101913
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 0,
+    "date": 20201212102006
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 1,
+    "date": 20201212102413
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 2,
+    "date": 20201212102544
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 3,
+    "date": 20201212102713
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 4,
+    "date": 20201212102943
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 5,
+    "date": 20201212103158
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 6,
+    "date": 20201212103258
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 7,
+    "date": 20201212103443
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 8,
+    "date": 20201212103628
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 9,
+    "date": 20201212103728
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 10,
+    "date": 20201212103829
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 11,
+    "date": 20201212103944
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 12,
+    "date": 20201212104059
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 13,
+    "date": 20201212104244
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 14,
+    "date": 20201212104444
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 15,
+    "date": 20201212104744
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 16,
+    "date": 20201212105330
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 17,
+    "date": 20201212105645
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 18,
+    "date": 20201212105839
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 19,
+    "date": 20201212110000
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 20,
+    "date": 20201212110239
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 21,
+    "date": 20201212110501
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 22,
+    "date": 20201212110646
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 23,
+    "date": 20201212111002
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 0,
+    "date": 20201212113003
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 1,
+    "date": 20201212113317
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 2,
+    "date": 20201212113517
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 3,
+    "date": 20201212113648
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 4,
+    "date": 20201212114232
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 5,
+    "date": 20201212114402
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 6,
+    "date": 20201212114532
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 7,
+    "date": 20201212114848
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 8,
+    "date": 20201212115217
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 9,
+    "date": 20201212115547
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 10,
+    "date": 20201212115803
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 11,
+    "date": 20201212115917
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 12,
+    "date": 20201212120018
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 13,
+    "date": 20201212120132
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 14,
+    "date": 20201212120202
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 15,
+    "date": 20201212120332
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 16,
+    "date": 20201212120439
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 17,
+    "date": 20201212120639
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 18,
+    "date": 20201212120817
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 19,
+    "date": 20201212120917
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 20,
+    "date": 20201212121204
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 21,
+    "date": 20201212121303
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 22,
+    "date": 20201212121449
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 23,
+    "date": 20201212121519
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 0,
+    "date": 20201212122018
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 1,
+    "date": 20201212122204
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 2,
+    "date": 20201212122349
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 3,
+    "date": 20201212122503
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 4,
+    "date": 20201212122718
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 5,
+    "date": 20201212122903
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 6,
+    "date": 20201212123004
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 7,
+    "date": 20201212123148
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 8,
+    "date": 20201212123303
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 9,
+    "date": 20201212123403
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 10,
+    "date": 20201212123448
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 11,
+    "date": 20201212123634
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 12,
+    "date": 20201212123733
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 13,
+    "date": 20201212123849
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 14,
+    "date": 20201212124019
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 15,
+    "date": 20201212124304
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 16,
+    "date": 20201212124840
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 17,
+    "date": 20201212125019
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 18,
+    "date": 20201212125220
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 19,
+    "date": 20201212125350
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 20,
+    "date": 20201212125605
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 21,
+    "date": 20201212125749
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 22,
+    "date": 20201212125950
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 23,
+    "date": 20201212130204
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 0,
+    "date": 20201212180500
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 1,
+    "date": 20201212180645
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 2,
+    "date": 20201212181000
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 3,
+    "date": 20201212181130
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 4,
+    "date": 20201212182100
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 5,
+    "date": 20201212182330
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 6,
+    "date": 20201212182831
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 7,
+    "date": 20201212183401
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 8,
+    "date": 20201212183801
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 9,
+    "date": 20201212184131
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 10,
+    "date": 20201212184331
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 11,
+    "date": 20201212184431
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 12,
+    "date": 20201212184516
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 13,
+    "date": 20201212184631
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 14,
+    "date": 20201212184716
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 15,
+    "date": 20201212184816
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 16,
+    "date": 20201212184946
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 17,
+    "date": 20201212185116
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 18,
+    "date": 20201212185246
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 19,
+    "date": 20201212185401
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 20,
+    "date": 20201212185646
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 21,
+    "date": 20201212185746
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 22,
+    "date": 20201212185901
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 23,
+    "date": 20201212185916
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 0,
+    "date": 20201213071802
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 1,
+    "date": 20201213071832
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 2,
+    "date": 20201213072017
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 3,
+    "date": 20201213072116
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 4,
+    "date": 20201213072402
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 5,
+    "date": 20201213072602
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 6,
+    "date": 20201213072702
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 7,
+    "date": 20201213072847
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 8,
+    "date": 20201213073002
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 9,
+    "date": 20201213073102
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 10,
+    "date": 20201213073202
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 11,
+    "date": 20201213073317
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 12,
+    "date": 20201213073417
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 13,
+    "date": 20201213073531
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 14,
+    "date": 20201213073746
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 15,
+    "date": 20201213074046
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 16,
+    "date": 20201213074617
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 17,
+    "date": 20201213074901
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 18,
+    "date": 20201213075132
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 19,
+    "date": 20201213075332
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 20,
+    "date": 20201213075531
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 21,
+    "date": 20201213075732
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 22,
+    "date": 20201213075846
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 23,
+    "date": 20201213080047
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 0,
+    "date": 20201213082001
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 1,
+    "date": 20201213082146
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 2,
+    "date": 20201213082401
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 3,
+    "date": 20201213082617
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 4,
+    "date": 20201213083047
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 5,
+    "date": 20201213083416
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 6,
+    "date": 20201213083932
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 7,
+    "date": 20201213084302
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 8,
+    "date": 20201213084617
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 9,
+    "date": 20201213084903
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 10,
+    "date": 20201213085048
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 11,
+    "date": 20201213085248
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 12,
+    "date": 20201213085402
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 13,
+    "date": 20201213085523
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 14,
+    "date": 20201213085602
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 15,
+    "date": 20201213085729
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 16,
+    "date": 20201213085848
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 17,
+    "date": 20201213090018
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 18,
+    "date": 20201213090148
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 19,
+    "date": 20201213090317
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 20,
+    "date": 20201213090503
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 21,
+    "date": 20201213090618
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 22,
+    "date": 20201213090730
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 23,
+    "date": 20201213090802
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 0,
+    "date": 20201213091003
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 1,
+    "date": 20201213091118
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 2,
+    "date": 20201213091304
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 3,
+    "date": 20201213091419
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 4,
+    "date": 20201213091549
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 5,
+    "date": 20201213091730
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 6,
+    "date": 20201213091833
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 7,
+    "date": 20201213092004
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 8,
+    "date": 20201213092134
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 9,
+    "date": 20201213092220
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 10,
+    "date": 20201213092330
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 11,
+    "date": 20201213092420
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 12,
+    "date": 20201213092535
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 13,
+    "date": 20201213092720
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 14,
+    "date": 20201213092930
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 15,
+    "date": 20201213093235
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 16,
+    "date": 20201213093750
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 17,
+    "date": 20201213094020
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 18,
+    "date": 20201213094305
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 19,
+    "date": 20201213094435
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 20,
+    "date": 20201213094634
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 21,
+    "date": 20201213094850
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 22,
+    "date": 20201213095005
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 23,
+    "date": 20201213095258
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 0,
+    "date": 20201213102951
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 1,
+    "date": 20201213103136
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 2,
+    "date": 20201213103336
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 3,
+    "date": 20201213103536
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 4,
+    "date": 20201213104005
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 5,
+    "date": 20201213104136
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 6,
+    "date": 20201213104406
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 7,
+    "date": 20201213104730
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 8,
+    "date": 20201213105052
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 9,
+    "date": 20201213105351
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 10,
+    "date": 20201213105537
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 11,
+    "date": 20201213105737
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 12,
+    "date": 20201213105837
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 13,
+    "date": 20201213105952
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 14,
+    "date": 20201213110052
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 15,
+    "date": 20201213110207
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 16,
+    "date": 20201213110337
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 17,
+    "date": 20201213110522
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 18,
+    "date": 20201213110707
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 19,
+    "date": 20201213110822
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 20,
+    "date": 20201213111052
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 21,
+    "date": 20201213111137
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 22,
+    "date": 20201213111252
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 23,
+    "date": 20201213111337
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 0,
+    "date": 20201213112007
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 1,
+    "date": 20201213112019
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 2,
+    "date": 20201213112152
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 3,
+    "date": 20201213112330
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 4,
+    "date": 20201213112552
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 5,
+    "date": 20201213112737
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 6,
+    "date": 20201213112852
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 7,
+    "date": 20201213113037
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 8,
+    "date": 20201213113307
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 9,
+    "date": 20201213113352
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 10,
+    "date": 20201213113522
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 11,
+    "date": 20201213113637
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 12,
+    "date": 20201213113752
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 13,
+    "date": 20201213113907
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 14,
+    "date": 20201213114036
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 15,
+    "date": 20201213114622
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 16,
+    "date": 20201213115222
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 17,
+    "date": 20201213115552
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 18,
+    "date": 20201213115822
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 19,
+    "date": 20201213115937
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 20,
+    "date": 20201213120153
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 21,
+    "date": 20201213120338
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 22,
+    "date": 20201213120508
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 23,
+    "date": 20201213120723
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 0,
+    "date": 20201213122953
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 1,
+    "date": 20201213123238
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 2,
+    "date": 20201213123408
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 3,
+    "date": 20201213123553
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 4,
+    "date": 20201213123930
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 5,
+    "date": 20201213124053
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 6,
+    "date": 20201213124330
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 7,
+    "date": 20201213124523
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 8,
+    "date": 20201213124853
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 9,
+    "date": 20201213125139
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 10,
+    "date": 20201213125254
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 11,
+    "date": 20201213125409
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 12,
+    "date": 20201213125539
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 13,
+    "date": 20201213125639
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 14,
+    "date": 20201213125739
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 15,
+    "date": 20201213125839
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 16,
+    "date": 20201213125939
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 17,
+    "date": 20201213130130
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 18,
+    "date": 20201213130253
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 19,
+    "date": 20201213130424
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 20,
+    "date": 20201213130710
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 21,
+    "date": 20201213130810
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 22,
+    "date": 20201213130925
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 23,
+    "date": 20201213130955
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 0,
+    "date": 20201213131955
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 1,
+    "date": 20201213132014
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 2,
+    "date": 20201213132155
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 3,
+    "date": 20201213132311
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 4,
+    "date": 20201213132541
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 5,
+    "date": 20201213132726
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 6,
+    "date": 20201213132841
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 7,
+    "date": 20201213132956
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 8,
+    "date": 20201213133056
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 9,
+    "date": 20201213133226
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 10,
+    "date": 20201213133330
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 11,
+    "date": 20201213133511
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 12,
+    "date": 20201213133730
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 13,
+    "date": 20201213133856
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 14,
+    "date": 20201213134111
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 15,
+    "date": 20201213134511
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 16,
+    "date": 20201213135011
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 17,
+    "date": 20201213135441
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 18,
+    "date": 20201213135711
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 19,
+    "date": 20201213135841
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 20,
+    "date": 20201213140056
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 21,
+    "date": 20201213140256
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 22,
+    "date": 20201213140411
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 23,
+    "date": 20201213140611
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 0,
+    "date": 20201213170507
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 1,
+    "date": 20201213170731
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 2,
+    "date": 20201213170916
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 3,
+    "date": 20201213171131
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 4,
+    "date": 20201213171716
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 5,
+    "date": 20201213171901
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 6,
+    "date": 20201213172216
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 7,
+    "date": 20201213172601
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 8,
+    "date": 20201213172946
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 9,
+    "date": 20201213173246
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 10,
+    "date": 20201213173531
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 11,
+    "date": 20201213173646
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 12,
+    "date": 20201213173731
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 13,
+    "date": 20201213173846
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 14,
+    "date": 20201213173946
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 15,
+    "date": 20201213174046
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 16,
+    "date": 20201213174203
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 17,
+    "date": 20201213174346
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 18,
+    "date": 20201213174501
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 19,
+    "date": 20201213174631
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 20,
+    "date": 20201213174831
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 21,
+    "date": 20201213174947
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 22,
+    "date": 20201213175102
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 23,
+    "date": 20201213175117
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 0,
+    "date": 20201213175517
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 1,
+    "date": 20201213175520
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 2,
+    "date": 20201213175647
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 3,
+    "date": 20201213175802
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 4,
+    "date": 20201213175947
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 5,
+    "date": 20201213180132
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 6,
+    "date": 20201213180217
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 7,
+    "date": 20201213180402
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 8,
+    "date": 20201213180517
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 9,
+    "date": 20201213180632
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 10,
+    "date": 20201213180732
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 11,
+    "date": 20201213180847
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 12,
+    "date": 20201213180932
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 13,
+    "date": 20201213181047
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 14,
+    "date": 20201213181217
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 15,
+    "date": 20201213181532
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 16,
+    "date": 20201213182102
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 17,
+    "date": 20201213182332
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 18,
+    "date": 20201213182602
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 19,
+    "date": 20201213182717
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 20,
+    "date": 20201213182932
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 21,
+    "date": 20201213183147
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 22,
+    "date": 20201213183332
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 23,
+    "date": 20201213183517
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 0,
+    "date": 20201213190002
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 1,
+    "date": 20201213190147
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 2,
+    "date": 20201213190247
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 3,
+    "date": 20201213190447
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 4,
+    "date": 20201213190902
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 5,
+    "date": 20201213191032
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 6,
+    "date": 20201213191617
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 7,
+    "date": 20201213192632
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 8,
+    "date": 20201213193002
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 9,
+    "date": 20201213193246
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 10,
+    "date": 20201213193417
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 11,
+    "date": 20201213193517
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 12,
+    "date": 20201213193602
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 13,
+    "date": 20201213193717
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 14,
+    "date": 20201213193802
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 15,
+    "date": 20201213193902
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 16,
+    "date": 20201213194032
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 17,
+    "date": 20201213194202
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 18,
+    "date": 20201213194333
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 19,
+    "date": 20201213194433
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 20,
+    "date": 20201213194648
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 21,
+    "date": 20201213194733
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 22,
+    "date": 20201213194848
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 23,
+    "date": 20201213194918
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 0,
+    "date": 20201214065559
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 1,
+    "date": 20201214065759
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 2,
+    "date": 20201214065944
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 3,
+    "date": 20201214070114
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 4,
+    "date": 20201214070414
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 5,
+    "date": 20201214070559
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 6,
+    "date": 20201214070729
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 7,
+    "date": 20201214070959
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 8,
+    "date": 20201214071129
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 9,
+    "date": 20201214071244
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 10,
+    "date": 20201214071344
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 11,
+    "date": 20201214071459
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 12,
+    "date": 20201214071629
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 13,
+    "date": 20201214071814
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 14,
+    "date": 20201214071959
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 15,
+    "date": 20201214072344
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 16,
+    "date": 20201214073159
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 17,
+    "date": 20201214073744
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 18,
+    "date": 20201214074044
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 19,
+    "date": 20201214074159
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 20,
+    "date": 20201214074444
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 21,
+    "date": 20201214074744
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 22,
+    "date": 20201214074929
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 23,
+    "date": 20201214075244
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 0,
+    "date": 20201215075446
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 1,
+    "date": 20201215075731
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 2,
+    "date": 20201215080017
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 3,
+    "date": 20201215080201
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 4,
+    "date": 20201215080847
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 5,
+    "date": 20201215081033
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 6,
+    "date": 20201215081202
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 7,
+    "date": 20201215081534
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 8,
+    "date": 20201215082017
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 9,
+    "date": 20201215082503
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 10,
+    "date": 20201215082717
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 11,
+    "date": 20201215082819
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 12,
+    "date": 20201215082946
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 13,
+    "date": 20201215083103
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 14,
+    "date": 20201215083204
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 15,
+    "date": 20201215083319
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 16,
+    "date": 20201215083448
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 17,
+    "date": 20201215083633
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 18,
+    "date": 20201215083818
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 19,
+    "date": 20201215083948
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 20,
+    "date": 20201215084218
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 21,
+    "date": 20201215084343
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 22,
+    "date": 20201215084518
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 23,
+    "date": 20201215084603
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 0,
+    "date": 20201215085003
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 1,
+    "date": 20201215085034
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 2,
+    "date": 20201215085219
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 3,
+    "date": 20201215085433
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 4,
+    "date": 20201215085634
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 5,
+    "date": 20201215085804
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 6,
+    "date": 20201215085933
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 7,
+    "date": 20201215090118
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 8,
+    "date": 20201215090303
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 9,
+    "date": 20201215090419
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 10,
+    "date": 20201215090548
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 11,
+    "date": 20201215090718
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 12,
+    "date": 20201215090833
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 13,
+    "date": 20201215091004
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 14,
+    "date": 20201215091234
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 15,
+    "date": 20201215092017
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 16,
+    "date": 20201215092704
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 17,
+    "date": 20201215092848
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 18,
+    "date": 20201215093118
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 19,
+    "date": 20201215093304
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 20,
+    "date": 20201215093504
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 21,
+    "date": 20201215093818
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 22,
+    "date": 20201215093934
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 23,
+    "date": 20201215094234
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 0,
+    "date": 20201215095017
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 1,
+    "date": 20201215095204
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 2,
+    "date": 20201215095434
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 3,
+    "date": 20201215095648
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 4,
+    "date": 20201215100033
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 5,
+    "date": 20201215100148
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 6,
+    "date": 20201215100349
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 7,
+    "date": 20201215101033
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 8,
+    "date": 20201215101433
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 9,
+    "date": 20201215101749
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 10,
+    "date": 20201215102034
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 11,
+    "date": 20201215102304
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 12,
+    "date": 20201215102420
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 13,
+    "date": 20201215102605
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 14,
+    "date": 20201215102704
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 15,
+    "date": 20201215102850
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 16,
+    "date": 20201215103035
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 17,
+    "date": 20201215103234
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 18,
+    "date": 20201215103419
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 19,
+    "date": 20201215103550
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 20,
+    "date": 20201215103850
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 21,
+    "date": 20201215103949
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 22,
+    "date": 20201215104104
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 23,
+    "date": 20201215104150
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 0,
+    "date": 20201215104222
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 1,
+    "date": 20201215104549
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 2,
+    "date": 20201215104749
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 3,
+    "date": 20201215104920
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 4,
+    "date": 20201215105149
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 5,
+    "date": 20201215105304
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 6,
+    "date": 20201215105420
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 7,
+    "date": 20201215105617
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 8,
+    "date": 20201215105734
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 9,
+    "date": 20201215105835
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 10,
+    "date": 20201215105935
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 11,
+    "date": 20201215110105
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 12,
+    "date": 20201215110217
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 13,
+    "date": 20201215110351
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 14,
+    "date": 20201215110551
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 15,
+    "date": 20201215111005
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 16,
+    "date": 20201215111451
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 17,
+    "date": 20201215111820
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 18,
+    "date": 20201215112051
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 19,
+    "date": 20201215112205
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 20,
+    "date": 20201215112420
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 21,
+    "date": 20201215112621
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 22,
+    "date": 20201215112736
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 23,
+    "date": 20201215113006
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 0,
+    "date": 20201215113238
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 1,
+    "date": 20201215113735
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 2,
+    "date": 20201215113936
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 3,
+    "date": 20201215114218
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 4,
+    "date": 20201215114706
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 5,
+    "date": 20201215114821
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 6,
+    "date": 20201215114951
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 7,
+    "date": 20201215115250
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 8,
+    "date": 20201215115636
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 9,
+    "date": 20201215120005
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 10,
+    "date": 20201215120150
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 11,
+    "date": 20201215120321
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 12,
+    "date": 20201215120420
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 13,
+    "date": 20201215120536
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 14,
+    "date": 20201215120621
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 15,
+    "date": 20201215120751
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 16,
+    "date": 20201215120920
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 17,
+    "date": 20201215121051
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 18,
+    "date": 20201215121221
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 19,
+    "date": 20201215121350
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 20,
+    "date": 20201215121635
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 21,
+    "date": 20201215121750
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 22,
+    "date": 20201215121851
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 23,
+    "date": 20201215121951
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 0,
+    "date": 20201215122206
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 1,
+    "date": 20201215122336
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 2,
+    "date": 20201215122520
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 3,
+    "date": 20201215122651
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 4,
+    "date": 20201215122936
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 5,
+    "date": 20201215123121
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 6,
+    "date": 20201215123235
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 7,
+    "date": 20201215123436
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 8,
+    "date": 20201215123551
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 9,
+    "date": 20201215123651
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 10,
+    "date": 20201215123751
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 11,
+    "date": 20201215123906
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 12,
+    "date": 20201215124106
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 13,
+    "date": 20201215124306
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 14,
+    "date": 20201215124506
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 15,
+    "date": 20201215124851
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 16,
+    "date": 20201215125336
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 17,
+    "date": 20201215125635
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 18,
+    "date": 20201215125821
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 19,
+    "date": 20201215125951
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 20,
+    "date": 20201215130207
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 21,
+    "date": 20201215130407
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 22,
+    "date": 20201215130551
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 23,
+    "date": 20201215130852
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 0,
+    "date": 20201215162522
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 1,
+    "date": 20201215162552
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 2,
+    "date": 20201215162907
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 3,
+    "date": 20201215163107
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 4,
+    "date": 20201215163522
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 5,
+    "date": 20201215163652
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 6,
+    "date": 20201215163852
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 7,
+    "date": 20201215164237
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 8,
+    "date": 20201215164607
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 9,
+    "date": 20201215164852
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 10,
+    "date": 20201215165107
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 11,
+    "date": 20201215165222
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 12,
+    "date": 20201215165322
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 13,
+    "date": 20201215165452
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 14,
+    "date": 20201215165552
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 15,
+    "date": 20201215165652
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 16,
+    "date": 20201215165837
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 17,
+    "date": 20201215165952
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 18,
+    "date": 20201215170137
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 19,
+    "date": 20201215170237
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 20,
+    "date": 20201215170452
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 21,
+    "date": 20201215170623
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 22,
+    "date": 20201215170752
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 23,
+    "date": 20201215170822
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 0,
+    "date": 20201215171537
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 1,
+    "date": 20201215171637
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 2,
+    "date": 20201215171822
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 3,
+    "date": 20201215171937
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 4,
+    "date": 20201215172237
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 5,
+    "date": 20201215172408
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 6,
+    "date": 20201215172507
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 7,
+    "date": 20201215172707
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 8,
+    "date": 20201215172837
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 9,
+    "date": 20201215172922
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 10,
+    "date": 20201215173052
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 11,
+    "date": 20201215173222
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 12,
+    "date": 20201215173408
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 13,
+    "date": 20201215173552
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 14,
+    "date": 20201215173752
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 15,
+    "date": 20201215174037
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 16,
+    "date": 20201215174722
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 17,
+    "date": 20201215175122
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 18,
+    "date": 20201215175352
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 19,
+    "date": 20201215175507
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 20,
+    "date": 20201215175737
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 21,
+    "date": 20201215180022
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 22,
+    "date": 20201215180237
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 23,
+    "date": 20201215180537
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 0,
+    "date": 20201215182452
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 1,
+    "date": 20201215182652
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 2,
+    "date": 20201215182822
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 3,
+    "date": 20201215183222
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 4,
+    "date": 20201215184022
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 5,
+    "date": 20201215184152
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 6,
+    "date": 20201215184707
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 7,
+    "date": 20201215185607
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 8,
+    "date": 20201215190323
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 9,
+    "date": 20201215190653
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 10,
+    "date": 20201215190852
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 11,
+    "date": 20201215190952
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 12,
+    "date": 20201215191037
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 13,
+    "date": 20201215191122
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 14,
+    "date": 20201215191237
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 15,
+    "date": 20201215191337
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 16,
+    "date": 20201215191453
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 17,
+    "date": 20201215191623
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 18,
+    "date": 20201215191753
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 19,
+    "date": 20201215191853
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 20,
+    "date": 20201215192053
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 21,
+    "date": 20201215192208
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 22,
+    "date": 20201215192323
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 23,
+    "date": 20201215192353
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 0,
+    "date": 20201216063203
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 1,
+    "date": 20201216063303
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 2,
+    "date": 20201216063448
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 3,
+    "date": 20201216063533
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 4,
+    "date": 20201216063748
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 5,
+    "date": 20201216063918
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 6,
+    "date": 20201216064033
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 7,
+    "date": 20201216064218
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 8,
+    "date": 20201216064347
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 9,
+    "date": 20201216064447
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 10,
+    "date": 20201216064532
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 11,
+    "date": 20201216064703
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 12,
+    "date": 20201216064748
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 13,
+    "date": 20201216064847
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 14,
+    "date": 20201216065049
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 15,
+    "date": 20201216065348
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 16,
+    "date": 20201216065904
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 17,
+    "date": 20201216070149
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 18,
+    "date": 20201216070349
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 19,
+    "date": 20201216070519
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 20,
+    "date": 20201216070749
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 21,
+    "date": 20201216070949
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 22,
+    "date": 20201216071049
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 23,
+    "date": 20201216071234
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 0,
+    "date": 20201216072405
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 1,
+    "date": 20201216072635
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 2,
+    "date": 20201216072905
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 3,
+    "date": 20201216073133
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 4,
+    "date": 20201216073620
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 5,
+    "date": 20201216074020
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 6,
+    "date": 20201216074333
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 7,
+    "date": 20201216074806
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 8,
+    "date": 20201216075136
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 9,
+    "date": 20201216075606
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 10,
+    "date": 20201216075806
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 11,
+    "date": 20201216075906
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 12,
+    "date": 20201216080051
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 13,
+    "date": 20201216080151
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 14,
+    "date": 20201216080252
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 15,
+    "date": 20201216080407
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 16,
+    "date": 20201216080552
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 17,
+    "date": 20201216080722
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 18,
+    "date": 20201216080951
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 19,
+    "date": 20201216081052
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 20,
+    "date": 20201216081333
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 21,
+    "date": 20201216081447
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 22,
+    "date": 20201216081637
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 23,
+    "date": 20201216081722
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 0,
+    "date": 20201216081807
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 1,
+    "date": 20201216082133
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 2,
+    "date": 20201216082352
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 3,
+    "date": 20201216082507
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 4,
+    "date": 20201216082737
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 5,
+    "date": 20201216082952
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 6,
+    "date": 20201216083052
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 7,
+    "date": 20201216083252
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 8,
+    "date": 20201216083352
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 9,
+    "date": 20201216083506
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 10,
+    "date": 20201216083622
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 11,
+    "date": 20201216083752
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 12,
+    "date": 20201216083907
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 13,
+    "date": 20201216084107
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 14,
+    "date": 20201216084322
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 15,
+    "date": 20201216084608
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 16,
+    "date": 20201216085333
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 17,
+    "date": 20201216085738
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 18,
+    "date": 20201216085953
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 19,
+    "date": 20201216090138
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 20,
+    "date": 20201216090408
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 21,
+    "date": 20201216090638
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 22,
+    "date": 20201216090753
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 23,
+    "date": 20201216091022
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 0,
+    "date": 20201216092953
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 1,
+    "date": 20201216093223
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 2,
+    "date": 20201216093438
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 3,
+    "date": 20201216093623
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 4,
+    "date": 20201216094123
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 5,
+    "date": 20201216094339
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 6,
+    "date": 20201216094740
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 7,
+    "date": 20201216095425
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 8,
+    "date": 20201216095840
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 9,
+    "date": 20201216100140
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 10,
+    "date": 20201216100325
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 11,
+    "date": 20201216100533
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 12,
+    "date": 20201216100655
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 13,
+    "date": 20201216100810
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 14,
+    "date": 20201216100933
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 15,
+    "date": 20201216101040
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 16,
+    "date": 20201216101210
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 17,
+    "date": 20201216101340
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 18,
+    "date": 20201216101540
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 19,
+    "date": 20201216101655
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 20,
+    "date": 20201216101940
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 21,
+    "date": 20201216102055
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 22,
+    "date": 20201216102225
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 23,
+    "date": 20201216102310
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 0,
+    "date": 20201216102425
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 1,
+    "date": 20201216102655
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 2,
+    "date": 20201216102840
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 3,
+    "date": 20201216103010
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 4,
+    "date": 20201216103240
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 5,
+    "date": 20201216103440
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 6,
+    "date": 20201216103555
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 7,
+    "date": 20201216103740
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 8,
+    "date": 20201216103910
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 9,
+    "date": 20201216104010
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 10,
+    "date": 20201216104125
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 11,
+    "date": 20201216104240
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 12,
+    "date": 20201216104333
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 13,
+    "date": 20201216104455
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 14,
+    "date": 20201216104655
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 15,
+    "date": 20201216105010
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 16,
+    "date": 20201216105525
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 17,
+    "date": 20201216105840
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 18,
+    "date": 20201216110140
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 19,
+    "date": 20201216110255
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 20,
+    "date": 20201216110555
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 21,
+    "date": 20201216110740
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 22,
+    "date": 20201216110855
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 23,
+    "date": 20201216111055
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 0,
+    "date": 20201216113955
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 1,
+    "date": 20201216114155
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 2,
+    "date": 20201216114410
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 3,
+    "date": 20201216114555
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 4,
+    "date": 20201216114955
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 5,
+    "date": 20201216115240
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 6,
+    "date": 20201216115355
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 7,
+    "date": 20201216115733
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 8,
+    "date": 20201216120055
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 9,
+    "date": 20201216120441
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 10,
+    "date": 20201216120556
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 11,
+    "date": 20201216120733
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 12,
+    "date": 20201216120841
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 13,
+    "date": 20201216120956
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 14,
+    "date": 20201216121056
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 15,
+    "date": 20201216121211
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 16,
+    "date": 20201216121341
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 17,
+    "date": 20201216121511
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 18,
+    "date": 20201216121711
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 19,
+    "date": 20201216121811
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 20,
+    "date": 20201216122041
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 21,
+    "date": 20201216122133
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 22,
+    "date": 20201216122241
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 0,
+    "station_no": 23,
+    "date": 20201216122333
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 0,
+    "date": 20201216122956
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 1,
+    "date": 20201216123056
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 2,
+    "date": 20201216123241
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 3,
+    "date": 20201216123411
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 4,
+    "date": 20201216123541
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 5,
+    "date": 20201216123733
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 6,
+    "date": 20201216123841
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 7,
+    "date": 20201216124041
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 8,
+    "date": 20201216124156
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 9,
+    "date": 20201216124256
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 10,
+    "date": 20201216124356
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 11,
+    "date": 20201216124511
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 12,
+    "date": 20201216124626
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 13,
+    "date": 20201216124756
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 14,
+    "date": 20201216125011
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 15,
+    "date": 20201216125356
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 16,
+    "date": 20201216125856
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 17,
+    "date": 20201216130041
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 18,
+    "date": 20201216130342
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 19,
+    "date": 20201216130457
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 20,
+    "date": 20201216130727
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 21,
+    "date": 20201216130927
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 22,
+    "date": 20201216131042
+  },
+  {
+    "line_id": 31,
+    "car_flag": 42030,
+    "trans_direction": 1,
+    "station_no": 23,
+    "date": 20201216131312
+  }
+]
