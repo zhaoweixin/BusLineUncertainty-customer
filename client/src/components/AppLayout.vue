@@ -3,29 +3,26 @@
     <!-- <AppHeader></AppHeader> -->
     <Header class="header">
       <div class="header-title">
-        <h2>Bus Travel Time Uncertainty Visual Explorer</h2>
+        <h2 >Bus Travel Time Uncertainty Visual Explorer</h2>
         <!-- <p class="sub-title">Comprehensive Assessment Visualization Platform</p> -->
       </div>
     </Header>
 
     <Content class="content">
         <!-- <AppControler></AppControler> -->
-        <AppCompound></AppCompound>
-        <AppStationStats></AppStationStats>
-        <AppStationPD></AppStationPD>
+      <AppLineView></AppLineView>
+      <AppStationView></AppStationView>
     </Content>
 
-    <Footer class="layout-footer-center footer">2019-2021 &copy; TMViz</Footer>
+    <Footer class="layout-footer-center footer">2019-2022 &copy; TMViz</Footer>
 
   </div>
 </template>
 
 <script>
-import AppControler from "./AppModules/AppControler";
-import AppStationPD from "./AppModules/AppStationPD";
-import AppStationStats from "./AppModules/AppStationStats";
-import AppCompound from "./AppModules/AppCompound";
-
+// import AppControler from "./AppModules/AppControler";
+import AppLineView from "./AppModules/AppLineView";
+import AppStationView from "./AppModules/AppStationView";
 
 export default {
   name: "AppLayout",
@@ -33,10 +30,8 @@ export default {
     return {};
   },
   components: {
-    AppControler,
-    AppCompound,
-    AppStationPD,
-    AppStationStats,
+    AppLineView,
+    AppStationView
     // AppOverView
   },
   mounted() {},

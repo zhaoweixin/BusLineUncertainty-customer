@@ -230,14 +230,12 @@ export default {
 
 <style scope>
 .card-spd {
-  width: 23%;
-  height: 69.6%;
-  position: relative;
-  float: left;
-  /* top:1%; */
-  /* left: 10%; */
-  /* left: 0; */
-  /* margin: 0.1% ; */
+  width: 30%;
+  height: 100%;
+  position: absolute;
+  /* float: left; */
+  left: 70%;
+  float:left;
 }
 
 .SPD {

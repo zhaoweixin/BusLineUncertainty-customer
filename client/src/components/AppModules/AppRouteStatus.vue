@@ -82,15 +82,11 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .card {
-  width: 29.5%;
-  height: 69.5%;
+  width: 33.3%;
+  height: 100%;
   position: absolute;
-  /* float: left; */
-  /* bottom: 0; */
-  top:29.7%;
-  right: 0;
-  margin: 0.2%;
-  margin-left: 0;
+  float: left;
+  left: 66.7%
 }
 
 #route-status {

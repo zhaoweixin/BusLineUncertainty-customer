@@ -49,7 +49,7 @@ export default {
      let width=500;
      let height=500;
      let marign={top:10,bottom:10,left:10,right:10}
-     let newsvg=d3.select('#map-legend').append('svg').attr('width',width).attr('height',height).attr('transform',`translate(${0},${0})`)
+     let newsvg=d3.select('#map-legend').append('svg').attr('width',30).attr('height',30).attr('transform',`translate(${0},${0})`)
       
       // '#FFB6C1','#FA8072','#FF6347'
       let color=['#FFB6C1','#FA8072','#FF6347']
@@ -416,13 +416,13 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .card {
-  width: 70%;
-  height: 40%;
+  width: 33%;
+  height: 100%;
   position: absolute;
+  left: 0%;
+  float: left;
   /* top:0; */
   /* left:22%; */
-  margin: 0.2%;
-  margin-left: 0;
 }
 #map {
   /* position: relative;
@@ -454,8 +454,8 @@ background: rgba(255, 255, 255, 0.8);
 }
 #map-legend{
   position: absolute;
-  width: 200px;
-  height: 200px;
+  width: 20px;
+  height: 20px;
   /* background: red; */
   z-index: 999;
   /* border: 1px solid blue; */
