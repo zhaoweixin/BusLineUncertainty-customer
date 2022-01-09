@@ -104,10 +104,10 @@ export default {
   },
   methods: {
     initToolBox(){
-      let toolboxId = 'overView',
+      let parentContainerId = 'overView',
           containerId = 'overviewtooltip_box',
-          toolboxWidth = document.getElementById(toolboxId).offsetWidth,
-          toolboxHeight = document.getElementById(toolboxId).offsetHeight,
+          toolboxWidth = document.getElementById(parentContainerId).offsetWidth,
+          toolboxHeight = document.getElementById(parentContainerId).offsetHeight,
           containerHeight = document.getElementById(containerId).offsetHeight,
           margin = {'left': toolboxWidth* 0.05, 'right': toolboxWidth* 0.05, 'top': containerHeight * 0.15, 'bottom': containerHeight * 0.15}        
       let innerWidth = toolboxWidth - margin.left - margin.right,

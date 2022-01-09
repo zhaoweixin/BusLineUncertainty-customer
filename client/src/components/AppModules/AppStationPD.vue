@@ -5,11 +5,14 @@
       Station Probability Density Detail
     </p>
     <div id="stationPD">
-      <CellGroup>
+      <div id="stationPDTooltip_box"></div>
+      <div id="stationPD1"></div>
+      <div id="stationPD2"></div>
+      <!-- <CellGroup>
         <Cell title="" v-for="(item, index) in stations" :key="index">
           <div class="SPD" :id="'SPD_' + index"></div>
         </Cell>
-      </CellGroup>
+      </CellGroup> -->
     </div>
   </Card>
 </template>
@@ -22,22 +25,78 @@ export default {
     return {
       data: null,
       stations: [],
+      container: 'stationPD',
       colors: d3.scaleOrdinal(d3["schemeSet3"]),
     };
   },
   components: {},
   mounted() {
+    let that = this;
+    this.initToolTipsbox()
     this.$axios.get("pdf_data").then((res) => {
       this.stations = Object.keys(res.data).slice(0,4);
       this.data = res.data
     }).then(()=>{
+
         this.stations.forEach((d,i)=>{
-        this.test(this.data[d], "#SPD_"+i, i, d);
+        // this.test(this.data[d], "#SPD_"+i, i, d);
       })
     });
 
   },
   methods: {
+    initToolTipsbox(){
+      let parentContainerId = 'stationPD',
+          containerId = 'stationPDTooltip_box',
+          toolboxWidth = document.getElementById(parentContainerId).offsetWidth,
+          toolboxHeight = document.getElementById(parentContainerId).offsetHeight,
+          containerHeight = document.getElementById(containerId).offsetHeight,
+          margin = {'left': toolboxWidth* 0.05, 'right': toolboxWidth* 0.05, 'top': containerHeight * 0.15, 'bottom': containerHeight * 0.15}        
+      let innerWidth = toolboxWidth - margin.left - margin.right,
+          tooltipHeight = toolboxHeight * 0.045,
+          tooltipSubHeight = toolboxHeight * 0.095
+        // Add title to graph
+      
+      let svg = d3.select('#' + containerId).append('svg')
+                  .attr('width', innerWidth).attr('height', containerHeight)
+                  .append('g')
+                  .attr('transform', `translate(${margin.left},${margin.top})`)
+
+      svg.append("text")
+              .attr("x", 0)
+              .attr("y", tooltipHeight)
+              .attr("text-anchor", "left")
+              .style("font-size", "22px")
+              .text("LineGrid");
+
+      // Add subtitle to graph
+      svg.append("text")
+              .attr("x", 0)
+              .attr("y", tooltipSubHeight)
+              .attr("text-anchor", "left")
+              .style("font-size", "14px")
+              .style("fill", "grey")
+              .style("max-width", 400)
+              .text("A short description of the take-away message of this chart.");
+    },
+    area(){
+      let that = this,
+          width = document.getElementById(that.container).offsetWidth,
+          height = document.getElementById(that.container).offsetHeight,
+          margin = {top: height*0.1,  bottom: height*0.1, left: width*0.1, right: width*0.1 },
+          innerWidth = width - margin.left - margin.right,
+          innerHeight = height - margin.top - margin.bottom;
+      
+      let zoom = d3.zoom()
+        .scaleExtent([1,10])
+        .translateExtent([[-100, -100], [width + 90, height + 100]])
+        .on("zoom", zoomed)
+      
+      //https://bl.ocks.org/mbostock/db6b4335bf1662b413e7968910104f0f
+      //https://gist.github.com/biovisualize/373c6216b5634327099a
+      
+      
+    },
     test(data, domid, index,station_id) {
 
       let width = 400;
@@ -251,4 +310,29 @@ export default {
   height: 100%;
   /* background-color: #0ff; */
 }
+
+#stationPDTooltip_box{
+  position:relative;
+  float:left;
+  width: 100%;
+  height: 13%;
+  border: 1px solid blue;
+}
+
+#stationPD1{
+  position:relative;
+  float:left;
+  width: 100%;
+  height: 39%;
+  border: 1px solid red;
+}
+
+#stationPD2{
+  position:relative;
+  float:left;
+  width: 100%;
+  height: 39%;
+  border: 1px solid blue;
+}
+
 </style>
