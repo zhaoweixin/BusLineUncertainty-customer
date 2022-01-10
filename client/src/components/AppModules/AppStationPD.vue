@@ -25,6 +25,7 @@ export default {
     return {
       data: null,
       stations: [],
+      station_detail:{},
       container: 'stationPD',
       colors: d3.scaleOrdinal(d3["schemeSet3"]),
     };
@@ -33,14 +34,26 @@ export default {
   mounted() {
     let that = this;
     this.initToolTipsbox()
+    
     this.$axios.get("pdf_data").then((res) => {
-      this.stations = Object.keys(res.data).slice(0,4);
+      this.stations = Object.keys(res.data)
       this.data = res.data
-    }).then(()=>{
-
-        this.stations.forEach((d,i)=>{
-        // this.test(this.data[d], "#SPD_"+i, i, d);
+      this.stations.forEach((station) => {
+        let pdf = [],
+            hours = Object.keys(that.data[station])
+        hours.forEach((hour) => {
+          let len = that.data[station][hour]['cdf_x'].length
+          for(let i=0; i<len; i++){
+            pdf.push({'x': that.data[station][hour]['cdf_x'][i], 'y': that.data[station][hour]['cdf_y'][i]})
+          }
+        })
+        that.station_detail[station] = []
+        that.station_detail[station] = pdf
       })
+    }).then(()=>{
+      let station = 2,
+          container = 'stationPD1';
+      this.area(station, container)
     });
 
   },
@@ -79,22 +92,138 @@ export default {
               .style("max-width", 400)
               .text("A short description of the take-away message of this chart.");
     },
-    area(){
+    area(station, container){
+      // {x: '06:05:45', y: 0.001}
       let that = this,
-          width = document.getElementById(that.container).offsetWidth,
-          height = document.getElementById(that.container).offsetHeight,
-          margin = {top: height*0.1,  bottom: height*0.1, left: width*0.1, right: width*0.1 },
-          innerWidth = width - margin.left - margin.right,
-          innerHeight = height - margin.top - margin.bottom;
+          width = document.getElementById(container).offsetWidth,
+          height = document.getElementById(container).offsetHeight,
+          marginG = {top: height*0.3,  bottom: height*0.3, left: width*0.05, right: width*0.05, transtop: height*0.15},
+          innerWidthG = width - marginG.left - marginG.right,
+          innerHeightG = height - marginG.top - marginG.bottom,
+          pdf = this.station_detail[station],
+          pdf_len = pdf.length,
+          pdf_min = Math.min.apply(Math, pdf.map(function(o) { return o.y; })),
+          pdf_max = Math.max.apply(Math, pdf.map(function(o) { return o.y; })),
+          x_scale_min = '2020-01-01 05:30',
+          x_scale_max = '2020-01-01 22:00',
+          colorrange = ['white', 'red'],
+          colorScale = d3.scaleLinear().domain([pdf_min, pdf_max]).range(colorrange);
+      // area
+      // height 0.2
+
+      //draw area
+      //width of area is equal to gradient width
+      let marginA = {top: height*0.3,  bottom: height*0.3, left: width*0.05, right: width*0.05, transtop: height*0.2},
+          innerWidthA = width - marginA.left - marginA.right,
+          innerHeightA = height - marginA.top - marginA.bottom
+
+
+      let svg1 = d3.select('#' + container).append('svg')
+                  .attr('width', innerWidthA)
+                  .attr('height', innerHeightA)
+                  //.attr('transform', `translate(${marginA.left}, ${marginA.top})`)
+                  .style('border', '1px solid blue')
+                  .attr('transform', `translate(${marginA.left},${marginA.transtop})`),
+          xScale_area = d3.scaleTime().domain([new Date(x_scale_min), new Date(x_scale_max)]).range([0, innerWidthA]),
+          yScale_area = d3.scaleLinear().domain([pdf_min, pdf_max]).range([innerHeightA, 0]),
+          xAxis_area = d3.axisBottom(xScale_area).ticks(8)
+                .tickSize(innerHeightA)
+                .tickPadding(8 - innerHeightG),
+          yAxis_area = d3.axisRight(yScale_area)
+                .ticks(2)
+                .tickSize(innerWidthA)
+                .tickPadding(8 - innerWidthA)
+
+      let aX = svg1.append("g")
+                .attr("class", "zoomAxis")
+                .call(xAxis_area);
+      let aY = svg1.append("g")
+                .attr("class", "zoomAxis")
+                .call(yAxis_area);
+
+      let area_generator = d3.area()
+          .x((d) => {return xScale_area(new Date('2020-01-01 ' + d.x))})
+          .y0(yScale_area(0))
+          .y1((d) => {return yScale_area(d.y)})
+      let area_graph = svg1.append('path')
+              .datum(pdf)
+              .attr('fill', '#cce5df')
+              .attr('stroke', '#69b3a2')
+              .attr('stroke-width', 1.5)
+              .attr('d', area_generator)
+
+      //draw color graident
+      let svg = d3.select('#' + container).append('svg')
+                  .attr('width', innerWidthG)
+                  .attr('height', innerHeightG)
+                  .attr('transform', `translate(${marginG.left}, ${marginG.transtop})`)
       
-      let zoom = d3.zoom()
-        .scaleExtent([1,10])
-        .translateExtent([[-100, -100], [width + 90, height + 100]])
-        .on("zoom", zoomed)
+      let linearGradient = svg.append('defs').append('linearGradient').attr('id', 'gradient')
+                  .attr('x1', "0%")
+                  .attr('y1', "50%")
+                  .attr('x2', "100%")
+                  .attr('y2', "50%")
       
+      //gradient start
+      let scale_gradient_x = d3.scaleTime().domain([new Date(x_scale_min), new Date(x_scale_max)]).range([0, 1])
+
+      linearGradient.append('stop').attr('offset', 0).attr('stop-color', colorScale(pdf_min))
+      for(let i=0; i<pdf_len; i++){
+        linearGradient.append('stop').attr('offset', scale_gradient_x(new Date('2020-01-01 ' + pdf[i].x))).attr('stop-color', colorScale(pdf[i].y))
+      }
+      linearGradient.append('stop').attr('offset', 1).attr('stop-color', colorScale(pdf_min))
+
+      
+      let xScale_gradient = d3.scaleTime().domain([new Date(x_scale_min), new Date(x_scale_max)]).range([0, innerWidthG]),
+          yScale_gradient = d3.scaleLinear().domain([pdf_min, pdf_max]).range([0, innerHeightG]),
+          xAxis_gradient = d3.axisBottom(xScale_gradient).ticks(8)
+                .tickSize(innerHeightG)
+                .tickPadding(8 - innerHeightG),
+          yAxis_gradient = d3.axisRight(yScale_gradient)
+                .ticks(2)
+                .tickSize(innerWidthG)
+                .tickPadding(8 - innerWidthG);
+      let view = svg.append('rect')
+                .attr("class", "view")
+                .attr("x", 0.5)
+                .attr("y", 0.5)
+                .attr("width", innerWidthG - 1)
+                .attr("height", innerHeightG - 1);
+      let gX = svg.append("g")
+                .attr("class", "zoomAxis")
+                .call(xAxis_gradient);
+      let gY = svg.append("g")
+                .attr("class", "zoomAxis")
+                .call(yAxis_gradient);
+      
+
+      //parallel
+
+
+      let zoom_gradient = d3.zoom()
+        .scaleExtent([1,5])
+        .translateExtent([[0, 0], [innerWidthG, innerHeightG]])
+        .on("zoom", zoomed_gradient)
+
+      svg.call(zoom_gradient)
+      svg1.call(zoom_gradient)
+
+      function zoomed_gradient(event, d) {
+        area_graph.attr("transform", event.transform);
+        view.attr("transform", event.transform);
+
+        aX.call(xAxis_area.scale(event.transform.rescaleX(xScale_area)));
+        aY.call(yAxis_area.scale(event.transform.rescaleY(yScale_area)));
+
+        gX.call(xAxis_gradient.scale(event.transform.rescaleX(xScale_gradient)));
+        gY.call(yAxis_gradient.scale(event.transform.rescaleY(yScale_gradient)));
+
+      }
+    
       //https://bl.ocks.org/mbostock/db6b4335bf1662b413e7968910104f0f
       //https://gist.github.com/biovisualize/373c6216b5634327099a
-      
+      //https://github.com/d3/d3-zoom/blob/v3.0.0/README.md#zoom-transforms
+
       
     },
     test(data, domid, index,station_id) {
@@ -303,11 +432,13 @@ export default {
   /* background-color: #0ff; */
 }
 
+
 #stationPD {
   position: absolute;
   /* float: left; */
   width: 100%;
   height: 100%;
+  text-align: left;
   /* background-color: #0ff; */
 }
 
@@ -333,6 +464,18 @@ export default {
   width: 100%;
   height: 39%;
   border: 1px solid blue;
+}
+
+.view {
+  fill: url(#gradient);
+  stroke-width: 4px;
+  stroke: grey;
+}
+
+.zoomAxis{
+  stroke-dasharray: 6;
+  color: black;
+  opacity: 0.4;
 }
 
 </style>
