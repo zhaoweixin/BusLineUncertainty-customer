@@ -9,9 +9,10 @@
     </Header>
 
     <Content class="content">
-        <!-- <AppControler></AppControler> -->
-      <AppLineView></AppLineView>
-      <AppStationView></AppStationView>
+      <ViewControler></ViewControler>
+      <ViewMap></ViewMap>
+      <ViewLine></ViewLine>
+      <ViewStation></ViewStation>
     </Content>
 
     <Footer class="layout-footer-center footer">2019-2022 &copy; TMViz</Footer>
@@ -20,9 +21,10 @@
 </template>
 
 <script>
-// import AppControler from "./AppModules/AppControler";
-import AppLineView from "./AppModules/AppLineView";
-import AppStationView from "./AppModules/AppStationView";
+import ViewControler from "./AppModules/ViewControler";
+import ViewMap from "./AppModules/ViewMap";
+import ViewLine from "./AppModules/ViewLine";
+import ViewStation from "./AppModules/ViewStation";
 
 export default {
   name: "AppLayout",
@@ -30,9 +32,11 @@ export default {
     return {};
   },
   components: {
-    AppLineView,
-    AppStationView
-    // AppOverView
+    ViewControler,
+    ViewMap,
+    ViewLine,
+    ViewStation
+    
   },
   mounted() {},
   methods: {},

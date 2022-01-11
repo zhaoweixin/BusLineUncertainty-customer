@@ -12,8 +12,8 @@
 /*
 zhong
 */
-import Stream from '../../data-help/StreamDraw'
-import CalenderHeatmap from '../../data-help/CalenderHeatmap'
+import Stream from '../../../data-help/StreamDraw'
+import CalenderHeatmap from '../../../data-help/CalenderHeatmap'
 
 export default {
   name: "AppHeatmap",
@@ -36,12 +36,12 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .card-heatmap {
-  width: 40%;
-  height: 100%;
+  width: 100%;
+  height: 33.4%;
   position: absolute;
   /* float: left; */
-  left: 30%;
   float:left;
+  top: 66.6%;
 }
 
 #heatmap {

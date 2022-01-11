@@ -317,9 +317,9 @@ export default {
 
 <style scope>
 .card-spd-stats {
-  width: 23%;
-  height: 30%;
-  position: relative;
+  width: 100%;
+  height: 50%;
+  position: absolute;
   float: left;
   /* left: 10%; */
   /* left: 0; */

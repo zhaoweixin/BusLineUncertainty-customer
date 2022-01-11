@@ -18,12 +18,12 @@ zhong
 
 import mapboxgl from "mapbox-gl";
 
-import InterActiveInit from "../../data-help/MapInit";
-import Draw from "../../data-help/RouteDraw";
-import GTB from "../../data-help/gpsToBaidu";
-import Point from "../../data-help/Point";
-import Line from "../../data-help/Line";
-import F1 from "../../data-help/F1";
+import InterActiveInit from "../../../data-help/MapInit";
+import Draw from "../../../data-help/RouteDraw";
+import GTB from "../../../data-help/gpsToBaidu";
+import Point from "../../../data-help/Point";
+import Line from "../../../data-help/Line";
+import F1 from "../../../data-help/F1";
 
 import * as d3 from "d3";
 
@@ -416,8 +416,8 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .card {
-  width: 33%;
-  height: 100%;
+  width: 100%;
+  height: 50%;
   position: absolute;
   left: 0%;
   float: left;

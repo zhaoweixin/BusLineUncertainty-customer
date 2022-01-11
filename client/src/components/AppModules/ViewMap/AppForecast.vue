@@ -492,11 +492,11 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .card-overView {
-  width: 30%;
-  height: 100%;
+  width: 100%;
+  height: 50%;
   position: absolute;
   /* float: left; */
-  left: 0%;
+  top: 50%;
   float: left;
 }
 

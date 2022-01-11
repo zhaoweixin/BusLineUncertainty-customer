@@ -1,22 +1,18 @@
 <template>
   <Card class="card-busstation">
-    <AppOverView></AppOverView>
-    <AppHeatmap></AppHeatmap>
+    <AppStationStats></AppStationStats>
     <AppStationPD></AppStationPD>
   </Card>
 </template>
 
 <script>
-
-import AppOverView from './AppOverView'
-import AppHeatmap from "./AppHeatmap";
-import AppStationPD from "./AppStationPD";
+import AppStationStats from './ViewStation/AppStationStats';
+import AppStationPD from "./ViewStation/AppStationPD";
 
 export default {
   name: "AppCompound",
   components: {
-    AppOverView,
-    AppHeatmap,
+    AppStationStats,
     AppStationPD
   },
 };
@@ -24,8 +20,8 @@ export default {
 
 <style scope>
 .card-busstation {
-  width: 100%;
-  height: 50%;
+  width: 29%;
+  height: 100%;
   /* position: relative; */
   float: left;
   /* left: 10%; */

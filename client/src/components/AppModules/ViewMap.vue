@@ -1,32 +1,29 @@
 <template>
   <Card class="card-busline">
     <AppMap></AppMap>
-    <AppRouteStablity></AppRouteStablity>
-    <AppRouteStatus></AppRouteStatus>
+    <AppForecast></AppForecast>
   </Card>
 </template>
 
 <script>
 
-import AppMap from "./AppMap";
-import AppRouteStablity from "./AppRouteStablity";
-import AppRouteStatus from "./AppRouteStatus";
+import AppMap from "./ViewMap/AppMap";
+import AppForecast from './ViewMap/AppForecast';
 
 
 export default {
   name: "AppCompound",
   components: {
     AppMap,
-    AppRouteStablity,
-    AppRouteStatus    
+    AppForecast
   },
 };
 </script>
 
 <style scope>
 .card-busline {
-  width: 100%;
-  height: 50%;
+  width: 29%;
+  height: 100%;
   /* position: relative; */
   float: left;
   /* left: 10%; */

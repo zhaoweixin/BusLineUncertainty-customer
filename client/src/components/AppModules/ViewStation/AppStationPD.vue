@@ -222,7 +222,9 @@ export default {
     
       //https://bl.ocks.org/mbostock/db6b4335bf1662b413e7968910104f0f
       //https://gist.github.com/biovisualize/373c6216b5634327099a
+      //https://www.d3-graph-gallery.com/graph/area_basic.html
       //https://github.com/d3/d3-zoom/blob/v3.0.0/README.md#zoom-transforms
+
 
       
     },
@@ -418,12 +420,12 @@ export default {
 
 <style scope>
 .card-spd {
-  width: 30%;
-  height: 100%;
+  width: 100%;
+  height: 50%;
   position: absolute;
   /* float: left; */
-  left: 70%;
   float:left;
+  top: 50%;
 }
 
 .SPD {
