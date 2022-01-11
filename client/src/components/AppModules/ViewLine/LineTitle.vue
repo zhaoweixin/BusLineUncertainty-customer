@@ -30,7 +30,7 @@ export default {
         .attr("y", tooltipHeight)
         .attr("text-anchor", "left")
         .style("font-size", "22px")
-        .text("Bus Station Exploration");
+        .text("Bus Line Exploration");
 
       // Add subtitle to graph
       svg.append("text")

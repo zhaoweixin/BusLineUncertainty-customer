@@ -87,7 +87,7 @@ export default class Draw {
     }
 
 
-    static constructor(line_id, car, date, station, array) {
+    static constructor(line_id, car, date, station, array, containerId, containerHeadId) {
         //car是车辆数组
         //date是时间数组
         //station是车站数组
@@ -98,8 +98,16 @@ export default class Draw {
         this.date = date;
         this.station = station;
         this.array = array;
+        this.containerId = 'route-status';
+        this.containerHeadId = "route-status-head";
+        this.svg = null;
+        this.width = null;
+        this.height = null;
+        this.margin = null;
+        this.innerWidth = null;
+        this.innerHeight = null;
         // this.color=color;
-        var that = this;
+        let that = this;
 
         
 
@@ -125,17 +133,19 @@ export default class Draw {
         //这里是初始化坐标,这里需要输入一个选择那个容器的参数
         this.init = function () {
             //主要采用时间数组作为x轴和车站数组作为y轴，d3进行绘制
-            var width = 395;
-            var height = 300;
+            this.width = document.getElementById(this.containerId).offsetWidth,
+            this.height = document.getElementById(this.containerId).offsetHeight - 
+                            document.getElementById(this.containerHeadId).offsetHeight * 2.15
+            this.margin = {top: this.height*0.1, bottom: this.height*0.1, left: this.width*0.1, right: this.width*0.1}
+                
+            this.innerWidth = this.width - this.margin.left - this.margin.right,
+            this.innerHeight = this.height - this.margin.top - this.margin.bottom;
 
             // var containId=containerId
 
             // var padding=60;
-            margin = { left: 30, right: 30, top: 30, bottom: 30 }
-            var innerWidth = width - margin.left - margin.right;
-            var innerHeight = height - margin.top - margin.bottom;
 
-            svg = d3.select('#RouteDraw').append('svg').attr('width', width).attr('height', height);
+            this.svg = d3.select('#' + this.containerId).append('svg').attr('width', that.width).attr('height', that.height);
 
             let dateExtent = [
                 // new Date(1900, 1, 1, 0, 0, 0),
@@ -145,16 +155,16 @@ export default class Draw {
             ];
 
             //然后定义好比例尺,这里的映射区间需要改为   
-            xScale = d3.scaleLinear().domain([d3.min(that.date, d => d), d3.max(that.date, d => d)]).range([0, innerWidth]);
-            yScale = d3.scaleLinear().domain([0, d3.max(that.station, d => d)]).range([innerHeight, 0]);
+            xScale = d3.scaleLinear().domain([d3.min(that.date, d => d), d3.max(that.date, d => d)]).range([0, that.innerWidth]);
+            yScale = d3.scaleLinear().domain([0, d3.max(that.station, d => d)]).range([that.innerHeight, 0]);
 
-            const g = svg.append('g').attr('id', 'maingroup').attr('transform', `translate(${margin.left},${margin.top})`)
+            const g = this.svg.append('g').attr('id', 'maingroup').attr('transform', `translate(${that.margin.left},${that.margin.top})`)
 
             const yAxis = d3.axisLeft(yScale).ticks(10);
             g.append('g').call(yAxis).call((g) => g.select(".domain").remove())
 
             const xAxis = d3.axisBottom(xScale).tickFormat(d => sw(d)).ticks(5);
-            g.append('g').call(xAxis).attr('transform', `translate(${0},${innerHeight})`);
+            g.append('g').call(xAxis).attr('transform', `translate(${0},${that.innerHeight})`);
 
             //在这里添加文本说明
             // svg.append('text').text("↑").attr('x', 16.2).attr('y', 28.5)
@@ -241,7 +251,17 @@ export default class Draw {
             //这里是获取了860个点
 
             //打点完成后
-            svg.append('g').attr('fill', 'white').attr('stroke', 'white').attr('stroke-width', 2).selectAll('circle').data(newarray).enter().append("circle").attr('cx', d => xScale(d.date)).attr('cy', d => yScale(d.station)).attr('r', 1).attr('transform', `translate(${margin.left},${margin.top})`)
+            console.log('svg --', that.svg)
+            
+            that.svg.append('g')
+                .attr('fill', 'white')
+                .attr('stroke', 'white')
+                .attr('stroke-width', 2)
+                .selectAll('circle')
+                .data(newarray).enter().append("circle")
+                .attr('cx', d => xScale(d.date))
+                .attr('cy', d => yScale(d.station))
+                .attr('r', 1).attr('transform', `translate(${that.margin.left},${that.margin.top})`)
             //画线,按照car_id来进行画线
             //   svg.append("path").attr('d',).attr('fill','none').attr('stroke','black').attr('stroke-width',2.5)
 
@@ -294,10 +314,10 @@ export default class Draw {
                 }
 
                 if ((count <= 1 && nrarray[0].station == 0)) {
-                    svg.append('path').datum(nrarray).attr('d', line)
+                    that.svg.append('path').datum(nrarray).attr('d', line)
                         .attr('fill', 'none').attr('stroke', '#2B2B2B').attr('stroke-width', 2.5) 
                         //.attr('fill', 'none').attr('stroke', (d)=>newcolors(yingshe[d[0].car_id]/18)).attr('stroke-width', 2.5) 改变颜色
-                        .attr('transform', `translate(${margin.left},${margin.top})`)
+                        .attr('transform', `translate(${that.margin.left},${that.margin.top})`)
                         .attr('stroke-opacity',0.6)
                         // .attr('id',(d,i)=>d[0].car_id)
                         .append('title').text((d, i) => d[0].car_id)
@@ -307,9 +327,15 @@ export default class Draw {
                     // 改变path颜色
                     //svg.append('path').datum(nrarray).attr('d', line).attr('fill', 'none').attr('stroke', (d)=>newcolors(yingshe[d[0].car_id]/18)).attr('stroke-width', 2.5).attr('transform', `translate(${margin.left},${margin.top})`)
                         // .attr('id',(d,i)=>d[0].car_id)
-                        svg.append('path').datum(nrarray).attr('d', line).attr('fill', 'none').attr('stroke', '#2B2B2B').attr('stroke-width', 2.5).attr('transform', `translate(${margin.left},${margin.top})`)
-                        .attr('stroke-opacity',0.6)
-                        .append('title').text((d, i) => d[0].car_id)
+                        that.svg.append('path')
+                            .datum(nrarray).attr('d', line)
+                            .attr('fill', 'none')
+                            .attr('stroke', '#2B2B2B')
+                            .attr('stroke-width', 2.5)
+                            .attr('transform', `translate(${that.margin.left},${that.margin.top})`)
+                            .attr('stroke-opacity',0.6)
+                            .append('title')
+                            .text((d, i) => d[0].car_id)
                 }
                 else {
                     //先根据为0的元素的索引进行数组划分
@@ -346,7 +372,12 @@ export default class Draw {
                     //根据里面的小数组来分别画path
                     for (let r = 0; r < newA.length; r++) {
                         //svg.append('path').datum(newA[r]).attr('d', line).attr('fill', 'none').attr('stroke', (d)=>newcolors(yingshe[d[0].car_id]/18)).attr('stroke-width', 2.5).attr('transform', `translate(${margin.left},${margin.top})`)
-                        svg.append('path').datum(newA[r]).attr('d', line).attr('fill', 'none').attr('stroke', '#2B2B2B').attr('stroke-width', 2.5).attr('transform', `translate(${margin.left},${margin.top})`)
+                        that.svg.append('path')
+                            .datum(newA[r]).attr('d', line)
+                            .attr('fill', 'none')
+                            .attr('stroke', '#2B2B2B')
+                            .attr('stroke-width', 2.5)
+                            .attr('transform', `translate(${that.margin.left},${that.margin.top})`)
                             // .attr('id',(d,i)=>d[0].car_id)
                             .attr('stroke-opacity',0.6)
                             .append('title').text((d, i) => d[0].car_id)

@@ -1,12 +1,12 @@
 <template>
   <Card class="card">
-    <p slot="title" style="text-align: left">
+    <p slot="title" style="text-align: left" id="route-status-head">
       <Icon type="ios-bus-outline" />
       Route Status
     </p>
     <div id="route-status">
-        
-        <p id="Title1" slot="title" style="text-align: center;font-weight:500;font-size:16px;">
+      
+        <!-- <p id="Title1" slot="title" style="text-align: center;font-weight:500;font-size:16px;">
            UpLine
         </p>
        <div id="RouteDraw">
@@ -15,7 +15,7 @@
            DownLine
         </p>
       <div id="RouteDrawX">
-      </div>
+      </div> -->
     </div>
   </Card>
 </template>
@@ -47,10 +47,13 @@ export default {
   data() {
     return {
        count:'1209',
-       wantData:'1'
+       wantData:'1',
+       containerId: 'containerId',
+       containerHeadId: 'containerHeadId'
     };
   },
   mounted() {
+    let that = this;
            var data = this.$axios.get("http://localhost:8080/static/1207.json").then((data) =>{
         var array = data.data;
 
@@ -61,18 +64,20 @@ export default {
         //上行线的数组
         let darray = Draw.getArray(array);
         console.log('darray:',darray)
-        //下行线的数组
-        let newarray = Draw.newgetArray(array);
-        console.log('newarray:',newarray)
+
         //这里是获得上行线
-        const pict = new Draw.constructor([], car, date, station, darray)
+        const pict = new Draw.constructor([], car, date, station, darray, that.containerId, that.containerHeadId)
           .init()
           .getChart();
+  
+        // //下行线的数组
+        // let newarray = Draw.newgetArray(array);
+        // console.log('newarray:',newarray)
 
         //这里是获得下行线,下行线的数组需要重新的划分和上行的数组规则不一样了
-        const newpict = new Draw.constructor([], car, date, station, newarray)
-          .newinit()
-          .getnewChart();
+        // const newpict = new Draw.constructor([], car, date, station, newarray)
+        //   .newinit()
+        //   .getnewChart();
       });
   },
   methods: {},

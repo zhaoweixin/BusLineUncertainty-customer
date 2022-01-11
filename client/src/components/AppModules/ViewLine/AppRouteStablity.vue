@@ -1,6 +1,6 @@
 <template>
   <Card class="card">
-    <p slot="title" style="text-align: left">
+    <p slot="title" style="text-align: left" id="route-stablity-head">
       <Icon type="ios-bus-outline" />
       Route Stablity
     </p>
@@ -24,55 +24,30 @@ export default {
   },
   methods: {
     test(data) {
-      let width = document.getElementById("route-stablity").offsetWidth;
-      let height = document.getElementById("route-stablity").offsetHeight;
+      let width = document.getElementById("route-stablity").offsetWidth,
+          height = document.getElementById("route-stablity").offsetHeight - document.getElementById("route-stablity-head").offsetHeight * 2.15,
+          margin = { top: height * 0.1, bottom: height * 0.1, left: width * 0.1, right: width * 0.1 },
+          innerWidth = width - margin.left - margin.right,
+          innerHeight = height - margin.top - margin.bottom;
 
       // set the dimensions and margins of the graph
-      let margin = { top: 40, right: 30, bottom: 80, left: 50 };
-
-      (width = width - margin.left - margin.right),
-        (height = height - margin.top - margin.bottom);
 
       // append the svg object to the body of the page
       let svg = d3
         .select("#route-stablity")
         .append("svg")
-        .attr("width", width + margin.left + margin.right)
-        .attr("height", height + margin.top + margin.bottom)
+        .attr("width", width)
+        .attr("height", height)
         .append("g")
         .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
-
-      // let zoom = d3
-      //   .zoom()
-      //   .scaleExtent([1, 10])
-      //   .extent([
-      //     [margin.left, 0],
-      //     [width - margin.right, height],
-      //   ])
-      //   .translateExtent([
-      //     [margin.left, -Infinity],
-      //     [width - margin.right, Infinity],
-      //   ])
-      //   .on("zoom", zoomed);
-
-      // let data = [...new Array(5)].fill(0).map((d, i) => {
-      //   let min = 1 + Math.random() * 5,
-      //     max = 5 + Math.random() * 5;
-      //   return {
-      //     name: "Station" + i,
-      //     min: min,
-      //     max: max,
-      //     mid: (min + max) / 2,
-      //   };
-      // });
 
       svg
         .append("defs")
         .append("clipPath")
         .attr("id", "clip")
         .append("rect")
-        .attr("width", width)
-        .attr("height", height + margin.bottom);
+        .attr("width", innerWidth)
+        .attr("height", innerHeight + margin.bottom);
 
       let rectColor = ["#bf4063", "#ff8040", "#468c00"];
 
@@ -112,12 +87,12 @@ export default {
       var x = d3
         .scaleBand()
         .domain(dataTypes)
-        .range([0, width])
+        .range([0, innerWidth])
         .paddingInner(1)
         .paddingOuter(0.5);
 
       let xAxis = (g, x) =>
-        g.attr("transform", `translate(0,${height})`).call(
+        g.attr("transform", `translate(0,${innerHeight})`).call(
           d3.axisBottom(x)
           // .ticks(8)
           // .tickSizeOuter(0)
@@ -139,7 +114,7 @@ export default {
       let gx = g.append("g").call(xAxis, x);
 
       // add the y Axis
-      var y = d3.scaleLinear().range([height, 0]).domain([0, 23]);
+      var y = d3.scaleLinear().range([innerHeight, 0]).domain([0, 23]);
 
       svg
         .append("g")
@@ -172,7 +147,7 @@ export default {
           //     .attr("x1", (d) => x(d))
           //     .attr("x2", (d) => x(d))
           //     .attr("y1", margin.top)
-          //     .attr("y2", height - margin.bottom)
+          //     .attr("y2", innerHeight - margin.bottom)
           // )
           .call((g) =>
             g
@@ -183,7 +158,7 @@ export default {
               .attr("x1", (d) => x(d) + x.bandwidth() / 2)
               .attr("x2", (d) => x(d) + x.bandwidth() / 2)
               .attr("y1", 0)
-              .attr("y2", height)
+              .attr("y2", innerHeight)
           );
 
       let grid_g = g.append("g").call(grid, x);
@@ -375,7 +350,7 @@ export default {
       function zoom(svg) {
         const extent = [
           [margin.left, margin.top],
-          [width - margin.right, height - margin.top],
+          [innerWidth - margin.right, innerHeight - margin.top],
         ];
 
         svg.call(
@@ -388,7 +363,7 @@ export default {
         );
 
         function zoomed(event) {
-          x.range([0, width].map((d) => event.transform.applyX(d)));
+          x.range([0, innerWidth].map((d) => event.transform.applyX(d)));
 
           // const new_y = event.transform.rescaleX(y);
           // let y_domain = new_y.domain()
@@ -447,7 +422,7 @@ export default {
         // gx.call(xAxis, xz);
         var t = event.transform;
 
-        gx.attr("transform", d3.zoomIdentity.translate(t.x, height).scale(t.k));
+        gx.attr("transform", d3.zoomIdentity.translate(t.x, innerHeight).scale(t.k));
         // gx.selectAll("text").attr("transform", d3.zoomIdentity.scale(1 / t.k));
         // gx.selectAll("line").attr("transform", d3.zoomIdentity.scale(1 / t.k));
       }

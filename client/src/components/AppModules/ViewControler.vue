@@ -55,6 +55,19 @@
         <Button class="clickbutton">Submit</Button>
     </Card>
 
+    <Card id="control-card4" class="control-card-item" >
+      <p slot="title" style="text-align:left; font-size: 16px; padding: 0px !important">
+        <Icon type="ios-albums-outline" />
+        Bus running direction
+      </p>
+
+      <RadioGroup v-model="border">
+          <Radio label="UpLine" border></Radio>
+          <Radio label="DownLine" border></Radio>
+      </RadioGroup>
+
+    </Card>
+
   </Card>
 </template>
 
@@ -69,7 +82,8 @@ export default {
         input1: '',
         input2: '',
         input3: ''
-      }
+      },
+      border: '金斑蝶'
     }
   }
 };

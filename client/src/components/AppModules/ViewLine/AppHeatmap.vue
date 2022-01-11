@@ -1,6 +1,6 @@
 <template>
   <Card class="card-heatmap">
-    <p slot="title" style="text-align: left">
+    <p slot="title" style="text-align: left" id="heatmap-head">
       <Icon type="ios-bus-outline" />
       Station Stability View
     </p>
