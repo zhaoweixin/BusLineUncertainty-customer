@@ -1,7 +1,7 @@
 <template>
   <Card id="control-card" style="">
     <div style="background: #515A6E;">
-      <p slot="title" style="text-align:center; font-weight: 600; font-size: 18px; color: white; padding-top: 10px; padding-bottom: 10px">
+      <p slot="title" style="text-align:center; font-weight: 600; font-size: 18px; color: white; padding-top: 8%; padding-bottom: 8%">
         Control Panel
       </p>
     </div>

@@ -460,9 +460,10 @@ export default {
 <style scoped>
 .card {
   width: 100%;
-  height: 33.3%;
+  height: 31.3%;
   position: absolute;
   float: left;
+  top: 6%;
 }
 #route-stablity {
   /* position: relative;

@@ -417,10 +417,11 @@ export default {
 <style scoped>
 .card {
   width: 100%;
-  height: 50%;
+  height: 47%;
   position: absolute;
   left: 0%;
   float: left;
+  top: 6%;
   /* top:0; */
   /* left:22%; */
 }

@@ -37,11 +37,11 @@ export default {
 <style scoped>
 .card-heatmap {
   width: 100%;
-  height: 33.4%;
+  height: 31.4%;
   position: absolute;
   /* float: left; */
   float:left;
-  top: 66.6%;
+  top: 68.6%;
 }
 
 #heatmap {

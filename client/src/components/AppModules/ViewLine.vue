@@ -1,21 +1,23 @@
 <template>
   <Card class="card-busline">
-    <AppRouteStatus></AppRouteStatus>
+    <LineTitle></LineTitle>
     <AppRouteStablity></AppRouteStablity>
+    <AppRouteStatus></AppRouteStatus>
     <AppHeatmap></AppHeatmap>
   </Card>
 </template>
 
 <script>
-
-import AppRouteStatus from "./ViewLine/AppRouteStatus";
+import LineTitle from "./ViewLine/LineTitle";
 import AppRouteStablity from "./ViewLine/AppRouteStablity";
+import AppRouteStatus from "./ViewLine/AppRouteStatus";
 import AppHeatmap from './ViewLine/AppHeatmap';
 
 
 export default {
   name: "AppCompound",
   components: {
+    LineTitle,
     AppRouteStablity,
     AppRouteStatus,
     AppHeatmap

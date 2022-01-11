@@ -421,11 +421,11 @@ export default {
 <style scope>
 .card-spd {
   width: 100%;
-  height: 50%;
+  height: 47%;
   position: absolute;
   /* float: left; */
   float:left;
-  top: 50%;
+  top: 53%;
 }
 
 .SPD {

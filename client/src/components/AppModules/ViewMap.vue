@@ -1,12 +1,13 @@
 <template>
   <Card class="card-busline">
+    <MapTitle></MapTitle>
     <AppMap></AppMap>
     <AppForecast></AppForecast>
   </Card>
 </template>
 
 <script>
-
+import MapTitle from "./ViewMap/MapTitle";
 import AppMap from "./ViewMap/AppMap";
 import AppForecast from './ViewMap/AppForecast';
 
@@ -14,6 +15,7 @@ import AppForecast from './ViewMap/AppForecast';
 export default {
   name: "AppCompound",
   components: {
+    MapTitle,
     AppMap,
     AppForecast
   },

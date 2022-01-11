@@ -1,17 +1,20 @@
 <template>
   <Card class="card-busstation">
+    <StationTitle></StationTitle>
     <AppStationStats></AppStationStats>
     <AppStationPD></AppStationPD>
   </Card>
 </template>
 
 <script>
+import StationTitle from './ViewStation/StationTitle';
 import AppStationStats from './ViewStation/AppStationStats';
 import AppStationPD from "./ViewStation/AppStationPD";
 
 export default {
   name: "AppCompound",
   components: {
+    StationTitle,
     AppStationStats,
     AppStationPD
   },
