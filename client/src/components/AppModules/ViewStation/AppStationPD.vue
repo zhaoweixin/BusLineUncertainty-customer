@@ -5,9 +5,10 @@
       Station Probability Density Detail
     </p>
     <div id="stationPD">
-      <div id="stationPDTooltip_box"></div>
       <div id="stationPD1"></div>
       <div id="stationPD2"></div>
+      <div id="stationPD3"></div>
+      <div id="stationPDTooltip_box"></div>
       <!-- <CellGroup>
         <Cell title="" v-for="(item, index) in stations" :key="index">
           <div class="SPD" :id="'SPD_' + index"></div>
@@ -34,7 +35,7 @@ export default {
   mounted() {
     let that = this;
     this.initToolTipsbox()
-    
+
     this.$axios.get("pdf_data").then((res) => {
       this.stations = Object.keys(res.data)
       this.data = res.data
@@ -51,16 +52,22 @@ export default {
         that.station_detail[station] = pdf
       })
     }).then(()=>{
-      let station = 2,
-          container = 'stationPD1';
-      
+      let station1 = 2,
+          station2 = 3,
+          station3 = 4,
+          container1 = 'stationPD1',
+          container2 = 'stationPD2',
+          container3 = 'stationPD3';
       that.$axios.get("ppf_data").then((ppf_data) => {
-        that.stations = Object.keys(ppf_data.data).slice(0, 1);
-        that.area(station, container, ppf_data.data, that.stations)
-      })
-      
-    });
+        let stations1 = Object.keys(ppf_data.data).slice(0, 1),
+            stations2 = Object.keys(ppf_data.data).slice(1, 2),
+            stations3 = Object.keys(ppf_data.data).slice(2, 3);
 
+        that.area(station1, container1, ppf_data.data, stations1)
+        that.area(station2, container2, ppf_data.data, stations2)
+        that.area(station3, container3, ppf_data.data, stations3)
+      })
+    });
   },
   methods: {
     initToolTipsbox(){
@@ -108,18 +115,38 @@ export default {
           pdf_max = Math.max.apply(Math, pdf.map(function(o) { return o.y; })),
           x_scale_min = '2020-01-01 05:30',
           x_scale_max = '2020-01-01 22:00',
-          colorrange = ['white', 'red'],
+          colorrange = ['#FFFFFF', 'green'],
           colorScale = d3.scaleLinear().domain([pdf_min, pdf_max]).range(colorrange);
       // area
       // height 0.2
 
       //draw area
       //width of area is equal to gradient width
-      let marginA = {top: height*0.25,  bottom: height*0.5, left: width*0.05, right: width*0.05, transtop: height*0.05},
+      let marginA = {top: height*0.25,  bottom: height*0.5, left: width*0.05, right: width*0.05, transtop: 0},
           innerWidthA = width - marginA.left - marginA.right,
           innerHeightA = height - marginA.top - marginA.bottom
 
+      //draw title
+      let title_svg = d3.select('#' + container).append('svg')
+                  .attr('width', innerWidthA)
+                  .attr('height', innerHeightA*0.4)
+                  .attr('transform', `translate(${marginA.left},${marginA.top*0.15})`)
+          
+          title_svg.append('text')
+                  .attr('transform', `translate(${innerWidthA / 2.4},${innerHeightA*0.2})`)
+                  .text('Station - ' + station)
 
+          title_svg.append('rect')
+                  .attr("x", innerWidthA / 2.4 - 15)
+                  .attr("y", innerHeightA * 0.08)
+                  .attr("width", 10)
+                  .attr("height", 10)
+                  .style('fill', 'grey')
+                  .style('stroke-width', '4')
+                  .style('stroke', 'none')
+                  .style('opacity', '0.8')
+   
+      //draw area
       let svg_area = d3.select('#' + container).append('svg')
                   .attr('width', innerWidthA)
                   .attr('height', innerHeightA)
@@ -135,6 +162,7 @@ export default {
                 .ticks(2)
                 .tickSize(innerWidthA)
                 .tickPadding(8 - innerWidthA)
+      
 
       let aX = svg_area.append("g")
                 .attr("class", "zoomAxis")
@@ -155,7 +183,7 @@ export default {
               .attr('d', area_generator)
 
       //draw color graident
-      let marginG = {top: height*0.25,  bottom: height*0.5, left: width*0.05, right: width*0.05, transtop: height*0},
+      let marginG = {top: height*0.25,  bottom: height*0.5, left: width*0.05, right: width*0.05, transtop: 0},
           innerWidthG = width - marginG.left - marginG.right,
           innerHeightG = height - marginG.top - marginG.bottom
 
@@ -203,7 +231,7 @@ export default {
                 .call(yAxis_gradient);
       
       //parallel cdf
-      let marginC = {top: height*0.25,  bottom: height*0.5, left: width*0.05, right: width*0.05, transtop: -height*0.04},
+      let marginC = {top: height*0.25,  bottom: height*0.5, left: width*0.05, right: width*0.05, transtop: 0},
           innerWidthC = width - marginC.left - marginC.right,
           innerHeightC = height - marginC.top - marginC.bottom,
           barhight = innerHeightC * 0.8
@@ -328,11 +356,11 @@ export default {
 <style scope>
 .card-spd {
   width: 100%;
-  height: 47%;
+  height: 94%;
   position: absolute;
   /* float: left; */
   float:left;
-  top: 53%;
+  top: 6%;
 }
 
 .SPD {
@@ -355,7 +383,7 @@ export default {
   position:relative;
   float:left;
   width: 100%;
-  height: 13%;
+  height: 10%;
   border: 1px solid blue;
 }
 
@@ -363,7 +391,7 @@ export default {
   position:relative;
   float:left;
   width: 100%;
-  height: 39%;
+  height: 28%;
   border: 1px solid red;
 }
 
@@ -371,8 +399,16 @@ export default {
   position:relative;
   float:left;
   width: 100%;
-  height: 39%;
+  height: 28%;
   border: 1px solid blue;
+}
+
+#stationPD3{
+  position:relative;
+  float:left;
+  width: 100%;
+  height: 28%;
+  border: 1px solid black;
 }
 
 .view {
