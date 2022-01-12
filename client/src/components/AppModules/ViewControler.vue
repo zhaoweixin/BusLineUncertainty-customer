@@ -58,14 +58,13 @@
     <Card id="control-card4" class="control-card-item" >
       <p slot="title" style="text-align:left; font-size: 16px; padding: 0px !important">
         <Icon type="ios-albums-outline" />
-        Bus running direction
+        Running direction
       </p>
 
-      <RadioGroup v-model="border">
-          <Radio label="UpLine" border></Radio>
-          <Radio label="DownLine" border></Radio>
+      <RadioGroup v-model="border" style="padding: 10px 0">
+          <Radio label="UpLine"></Radio>
+          <Radio label="DownLine"></Radio>
       </RadioGroup>
-
     </Card>
 
   </Card>

@@ -6,10 +6,11 @@
     </p>
     <div id="route-status">
       
-        <!-- <p id="Title1" slot="title" style="text-align: center;font-weight:500;font-size:16px;">
+        <!-- <p id="Title1" style="text-align: center;font-weight:500;font-size:16px;">
            UpLine
-        </p>
-       <div id="RouteDraw">
+        </p> -->
+
+       <!-- <div id="RouteDraw">
       </div>
         <p id="Title2" slot="title" style="text-align: center;font-weight:500;font-size:16px;">
            DownLine

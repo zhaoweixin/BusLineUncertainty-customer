@@ -145,7 +145,21 @@ export default class Draw {
 
             // var padding=60;
 
+
+
+
             this.svg = d3.select('#' + this.containerId).append('svg').attr('width', that.width).attr('height', that.height);
+
+            // title
+            this.svg.append('text')
+                .attr('id', 'Title1')
+                .attr('x', that.margin.left)
+                .attr('y', that.margin.top / 1.5)
+                .style('text-anchor', 'left')
+                .style('font-size', '16px')
+                .style('font-weight', 500)
+                .text('UpLine')
+            
 
             let dateExtent = [
                 // new Date(1900, 1, 1, 0, 0, 0),
@@ -157,14 +171,30 @@ export default class Draw {
             //然后定义好比例尺,这里的映射区间需要改为   
             xScale = d3.scaleLinear().domain([d3.min(that.date, d => d), d3.max(that.date, d => d)]).range([0, that.innerWidth]);
             yScale = d3.scaleLinear().domain([0, d3.max(that.station, d => d)]).range([that.innerHeight, 0]);
-
+            
             const g = this.svg.append('g').attr('id', 'maingroup').attr('transform', `translate(${that.margin.left},${that.margin.top})`)
 
             const yAxis = d3.axisLeft(yScale).ticks(10);
             g.append('g').call(yAxis).call((g) => g.select(".domain").remove())
 
+            let yAxis_right = d3.axisLeft(yScale).ticks(10).tickSize(that.innerWidth);
+
+            g.append('g').call(yAxis_right)
+                .attr('transform', `translate(${that.innerWidth},${0})`)
+                .style('stroke-dasharray', 6)
+                .style('color', 'black')
+                .style('opacity', 0.15)
+                .call((g) => {
+                    g.select(".domain").remove();
+                    g.selectAll('text').remove()
+                });
+
             const xAxis = d3.axisBottom(xScale).tickFormat(d => sw(d)).ticks(5);
             g.append('g').call(xAxis).attr('transform', `translate(${0},${that.innerHeight})`);
+
+            // xAxis_area = d3.axisBottom(xScale_area).ticks(8)
+            // .tickSize(innerHeightA)
+            // .tickPadding(8 - innerHeightG),
 
             //在这里添加文本说明
             // svg.append('text').text("↑").attr('x', 16.2).attr('y', 28.5)
@@ -251,12 +281,10 @@ export default class Draw {
             //这里是获取了860个点
 
             //打点完成后
-            console.log('svg --', that.svg)
-            
             that.svg.append('g')
-                .attr('fill', 'white')
-                .attr('stroke', 'white')
-                .attr('stroke-width', 2)
+                .attr('fill', 'grey')
+                .attr('stroke', 'grey')
+                .attr('stroke-width', 1)
                 .selectAll('circle')
                 .data(newarray).enter().append("circle")
                 .attr('cx', d => xScale(d.date))
@@ -302,7 +330,7 @@ export default class Draw {
 
             let cArray = that.getColorArray(AllCar.length);
             
-            console.log(AllCar);
+            //console.log(AllCar);
             for (var i = 0; i < AllCar.length; i++) {
                 let nrarray = AllCar[i]
                 //有中间出现的0个数将其进行划分

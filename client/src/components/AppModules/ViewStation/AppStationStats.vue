@@ -26,6 +26,7 @@ export default {
   },
   methods: {
     test(data, stations) {
+      console.log('data, stations:', data, stations)
       let width = 400;
       let height = 239; //this.$el.offsetHeight;
 
