@@ -300,7 +300,7 @@ export default class mapbox {
          
       //   ({key})=>z(newline(key))
          
-         console.log('value:', value, " ", newline(value))
+         //console.log('value:', value, " ", newline(value))
           map.setPaintProperty(myid,'line-color',newline(value))
          //   for (var i = 0; i < layers.length; i++) {
          })
