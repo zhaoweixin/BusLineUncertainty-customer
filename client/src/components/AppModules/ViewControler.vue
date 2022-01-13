@@ -35,25 +35,18 @@
             </FormItem>
         </Form>
         <Button class="clickbutton">Submit</Button>
-
     </Card>
+
+     -->
     <Card id="control-card3" class="control-card-item" >
       <p slot="title" style="text-align:left; font-size: 16px; padding: 0px !important">
         <Icon type="ios-albums-outline" />
         Station Comparison
       </p>
 
-        <Form :model="formTop" label-position="left">
-            <FormItem label="First Station">
-                <Input v-model="formTop.input1" placeholder="First station number"></Input>
-            </FormItem>
-            <FormItem label="Second Station">
-                <Input v-model="formTop.input2" placeholder="Second station number"></Input>
-            </FormItem>
-        </Form>
-
-        <Button class="clickbutton">Submit</Button>
-    </Card> -->
+      <Input v-model="busline" placeholder="Enter bus station to explore..." style="width: 100%; float: center; padding: 10px 0px 10px 0;" />
+      <Button class="clickbutton">Explore</Button>
+    </Card> 
 
     <Card id="control-card4" class="control-card-item" >
       <p slot="title" style="text-align:left; font-size: 16px; padding: 0px !important">
@@ -86,6 +79,7 @@ export default {
   data (){
     return {
       busline: '',
+      busStation: '',
       formTop: {
         input1: '',
         input2: '',
@@ -111,10 +105,12 @@ export default {
       let containerid = 'busrunningline',
           parentid = 'control-card',
           broid1 = 'control-card1',
-          broid2 = 'control-card4',
+          broid2 = 'control-card3',
+          broid3 = 'control-card4',
           height = document.getElementById(parentid).offsetHeight - 
             document.getElementById(broid1).offsetHeight - 
-            document.getElementById(broid2).offsetHeight ,
+            document.getElementById(broid2).offsetHeight -
+            document.getElementById(broid3).offsetHeight,
           width = document.getElementById(parentid).offsetWidth,
           margin = {'left': width* 0.05, 'right': width* 0.05, 'top': height * 0.05, 'bottom': height * 0.1},
           innerHeight = height - margin.top - margin.bottom,
@@ -143,7 +139,7 @@ export default {
           .attr('width',20)
           .attr('height',20)
           .attr('x', innerWidth / 4.9)
-          .attr('y', -margin.top * 0.6);
+          .attr('y', -margin.top * 0.8);
 
       let line = svg.append('g').selectAll('.lline')
         .data(linedata)

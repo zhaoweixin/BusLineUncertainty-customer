@@ -73,8 +73,8 @@ export default {
     initToolTipsbox(){
       let parentContainerId = 'stationPD',
           containerId = 'stationPDTooltip_box',
-          toolboxWidth = document.getElementById(parentContainerId).offsetWidth,
-          toolboxHeight = document.getElementById(parentContainerId).offsetHeight,
+          toolboxWidth = document.getElementById(containerId).offsetWidth,
+          toolboxHeight = document.getElementById(containerId).offsetHeight,
           containerHeight = document.getElementById(containerId).offsetHeight,
           margin = {'left': toolboxWidth* 0.05, 'right': toolboxWidth* 0.05, 'top': containerHeight * 0.15, 'bottom': containerHeight * 0.15}        
       let innerWidth = toolboxWidth - margin.left - margin.right,
@@ -86,15 +86,49 @@ export default {
                   .attr('width', innerWidth).attr('height', containerHeight)
                   .append('g')
                   .attr('transform', `translate(${margin.left},${margin.top})`)
-
+      //explore tips
       svg.append("text")
               .attr("x", 0)
-              .attr("y", tooltipHeight)
+              .attr("y", tooltipSubHeight)
               .attr("text-anchor", "left")
-              .style("font-size", "22px")
-              .text("LineGrid");
+              .style("font-size", "14px")
+              .style("fill", "grey")
+              .style("max-width", 400)
+              .text("Explore tips:");
+      console.log(d3.range(4))
+      let generateRange = d3.range(4)
+      let tips = []
+      for(let i=0; i<generateRange.length; i++){
+        svg.append("text")
+                .attr("x", 0)
+                .attr("y", tooltipSubHeight)
+                .attr("text-anchor", "left")
+                .style("font-size", "14px")
+                .style("fill", "grey")
+                .style("max-width", 400)
+                .text("A short description of the take-away message of this chart.");
+      }
 
-      // Add subtitle to graph
+      //pdf area
+      let img1=svg.append('g').append('image')
+          .attr('xlink:href','http://localhost:8080/static/bus.png')
+          .attr('width',20)
+          .attr('height',20)
+          .attr('x', innerWidth / 4.9)
+          .attr('y', -margin.top * 0.8);
+
+      
+
+
+
+      // svg.append("text")
+      //         .attr("x", 0)
+      //         .attr("y", tooltipHeight)
+      //         .attr("text-anchor", "left")
+      //         .style("font-size", "22px")
+      //         .text("LineGrid");
+
+      // // Add subtitle to graph
       svg.append("text")
               .attr("x", 0)
               .attr("y", tooltipSubHeight)
@@ -103,6 +137,9 @@ export default {
               .style("fill", "grey")
               .style("max-width", 400)
               .text("A short description of the take-away message of this chart.");
+
+
+      
     },
     area(station, container, ppfdata, ppfstations){
       // {x: '06:05:45', y: 0.001}
