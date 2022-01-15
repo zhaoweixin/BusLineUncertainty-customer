@@ -10,7 +10,7 @@ router.get('/', function (req, res, next) {
 
 
 router.get('/pdf_data', function (req, res, next) {
-  fs.readFile(path.join(__dirname, "../public/files/PDF_DICT.json"), "utf-8", function (err, data) {
+  fs.readFile(path.join(__dirname, "../public/files/db/PDF_DICT.json"), "utf-8", function (err, data) {
     if (err) {
       res.send("文件读取失败");
     } else {
@@ -21,7 +21,7 @@ router.get('/pdf_data', function (req, res, next) {
 });
 
 router.get('/ppf_data', function (req, res, next) {
-  fs.readFile(path.join(__dirname, "../public/files/PPF.json"), "utf-8", function (err, data) {
+  fs.readFile(path.join(__dirname, "../public/files/db/PPF.json"), "utf-8", function (err, data) {
     if (err) {
       res.send("文件读取失败");
     } else {
@@ -32,7 +32,7 @@ router.get('/ppf_data', function (req, res, next) {
 });
 
 router.get('/pred_station_data', function (req, res, next) {
-  fs.readFile(path.join(__dirname, "../public/files/PRED_STATION_ALL.csv"), "utf-8", function (err, data) {
+  fs.readFile(path.join(__dirname, "../public/files/db/PRED_STATION_ALL.csv"), "utf-8", function (err, data) {
     if (err) {
       res.send("文件读取失败");
     } else {
@@ -40,6 +40,55 @@ router.get('/pred_station_data', function (req, res, next) {
     }
   })
 });
+
+router.get('/river', function (req, res, next) {
+  fs.readFile(path.join(__dirname, "../public/files/db/RIVER.json"), "utf-8", function (err, data) {
+    if (err) {
+      res.send("文件读取失败");
+    } else {
+      data = JSON.parse(data)
+      res.send(data)
+    }
+  })
+});
+
+router.get('/historyRunning', function (req, res, next) {
+  fs.readFile(path.join(__dirname, "../public/files/db/historyRunning.json"), "utf-8", function (err, data) {
+    if (err) {
+      res.send("文件读取失败");
+    } else {
+      data = JSON.parse(data)
+      res.send(data)
+    }
+  })
+});
+
+router.get('/ppf', function (req, res, next) {
+  fs.readFile(path.join(__dirname, "../public/files/db/PPF.json"), "utf-8", function (err, data) {
+    if (err) {
+      res.send("文件读取失败");
+    } else {
+      data = JSON.parse(data)
+      res.send(data)
+    }
+  })
+});
+
+router.get('/location', function (req, res, next) {
+  fs.readFile(path.join(__dirname, "../public/files/db/location.json"), "utf-8", function (err, data) {
+    if (err) {
+      res.send("文件读取失败");
+    } else {
+      data = JSON.parse(data)
+      res.send(data)
+    }
+  })
+});
+
+
+
+
+
 
 function CSV(csvString) {
   let data = [];

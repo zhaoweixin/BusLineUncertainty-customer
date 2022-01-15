@@ -139,7 +139,7 @@ export default {
     },
     Commite() {
       document.getElementById('newmap').innerHTML = "";
-      this.$axios.get("http://localhost:8080/static/PPF.json").then((data) => {
+      this.$axios.get("ppf").then((data) => {
         let array = data.data;
 
         var width = 500;

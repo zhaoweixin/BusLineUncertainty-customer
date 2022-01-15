@@ -55,7 +55,7 @@ export default {
   },
   mounted() {
     let that = this;
-           var data = this.$axios.get("http://localhost:8080/static/1207.json").then((data) =>{
+           var data = this.$axios.get("historyRunning").then((data) =>{
         var array = data.data;
 
         let car = Draw.getCar(array);

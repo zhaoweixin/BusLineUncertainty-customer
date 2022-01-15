@@ -24,7 +24,7 @@ export default {
   },
   mounted() {
     let that = this;
-    this.$axios.get('http://localhost:8080/static/RIVER.json').then(data=>{
+    this.$axios.get('river').then(data=>{
       CalenderHeatmap.init(that.container)
       CalenderHeatmap.Draw(data.data)
     })

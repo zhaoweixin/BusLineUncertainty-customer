@@ -28,7 +28,15 @@ export default {
           height = document.getElementById("route-stablity").offsetHeight - document.getElementById("route-stablity-head").offsetHeight * 2.15,
           margin = { top: height * 0.1, bottom: height * 0.1, left: width * 0.1, right: width * 0.1 },
           innerWidth = width - margin.left - margin.right,
-          innerHeight = height - margin.top - margin.bottom;
+          innerHeight = height - margin.top - margin.bottom,
+          datastore = [];
+        data.forEach((d) => {
+          datastore.push(+d.lower_bound)
+          datastore.push(+d.mean)
+          datastore.push(+d.upper_bound)
+        })
+      let datamax = Math.max.apply(null, datastore),
+          datamin = Math.min.apply(null, datastore)
 
       // set the dimensions and margins of the graph
 
@@ -114,7 +122,7 @@ export default {
       let gx = g.append("g").call(xAxis, x);
 
       // add the y Axis
-      var y = d3.scaleLinear().range([innerHeight, 0]).domain([0, 23]);
+      var y = d3.scaleLinear().range([innerHeight, 0]).domain([datamin-5, datamax+5]);
 
       svg
         .append("g")

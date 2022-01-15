@@ -45,7 +45,7 @@ export default {
   },
   mounted() {
      
-     console.log(4)
+
      let width=500;
      let height=500;
      let marign={top:10,bottom:10,left:10,right:10}
@@ -67,7 +67,7 @@ export default {
 
      var that=this;
 
-        var data1=this.$axios.get('http://localhost:8080/static/location.json').then((data)=>{
+        var data1=this.$axios.get('location').then((data)=>{
           let nee=data.data;
           for(var i=0;i<nee.length;i++)
           {
