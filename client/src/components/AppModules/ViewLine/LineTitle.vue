@@ -39,7 +39,7 @@ export default {
           .attr("text-anchor", "left")
           .style("font-size", "14px")
           .style("fill", "grey")
-          .text("A short description of the take-away message of this chart.");
+          .text("Providing detail information of bus line.");
   }
 };
 </script>

@@ -1,8 +1,10 @@
 <template>
   <Card id="control-card" style="">
-    <div style="background: #515A6E;">
-      <p slot="title" style="text-align:center; font-weight: 600; font-size: 18px; color: white; padding-top: 8%; padding-bottom: 8%">
-        Control Panel
+
+
+    <div >
+      <p slot="title" style="text-align:left; font-size: 22px; color: black; padding-top: 3.5%; padding-left: 10%; padding-bottom: 10%">
+        Information Panel
       </p>
     </div>
 
@@ -44,7 +46,7 @@
         Station Comparison
       </p>
 
-      <Input v-model="busline" placeholder="Enter bus station to explore..." style="width: 100%; float: center; padding: 10px 0px 10px 0;" />
+      <Input v-model="busStation" placeholder="Enter bus station to explore..." style="width: 100%; float: center; padding: 10px 0px 10px 0;" />
       <Button class="clickbutton">Explore</Button>
     </Card> 
 
@@ -95,11 +97,27 @@ export default {
     getbusline_data(lineid){
       // let line_31 = ['邻玉小学', '交机技校', '邻玉场', '邻玉场口', '七十三砖厂', '七十三公里', '七十二公里', '七十三公里', '二回寺', '何家坝', '保养场', '两里村', '矿大门', '宪桥', '牛市坎', '桥南', '十五中', '淘米洞', '灯杆山', '宏道堂', '沱江二桥北', '工商大楼', '金井湾', '王氏鞋城']
       //let line_31 = ['Linyu Primary School', 'Jiaoji Technical School', 'Linyu Street', 'Linyu Street Crossing', 'No 73. Brickyard', 'No 73. Street', 'No 72. Street', 'No 73. Street', 'Erhui Temple', 'Hejiaba', 'Baoyangchang', 'Liangli Village', 'Kuangdamen', 'Xian Bridge', 'Niushikan', 'Bridge South', 'No 15. Middle School', 'Taomidong', 'Denggan Mount', 'Hongdaotang', 'Tuojiang Second Bridge North', 'Industrial and Commercial Building', 'Jinjingwan', "Wang Shoe's Market"]
-      let line_31 = ['L.Y. Primary School', 'J.J. Technical School', 'L.Y. Street', 'L.Y. Street Crossing', 'No 73. Brickyard', 'No 73. Street', 'No 72. Street', 'No 73. Street', 'E.H. Temple', 'Hejiaba', 'Baoyangchang', 'L.L. Village', 'Kuangdamen', 'Xian Bridge', 'Niushikan', 'Bridge South', 'No 15. Middle School', 'Taomidong', 'D.G. Mount', 'Hongdaotang', 'T.J. 2nd Bridge North', 'I&C Building', 'Jinjingwan', "Wang Shoe's Market"]
-      let busline_info = d3.range(line_31.length).map((i) => {
-        return {'lineid': lineid,'index': i, 'name': line_31[i], 'color': Math.random() * 10}
+      this.$axios.get('river').then(data=>{
+        //
+        let buscolor = []
+        data.data.ind_x.forEach((d,i) => {
+            let temp = []
+            data.data.ind_y.forEach((v,j) =>{
+                temp.push(data.data.value[j][i])
+            })
+            buscolor.push(d3.sum(temp))
+        })
+        buscolor.unshift(d3.min(buscolor))
+
+        let line_31 = ['L.Y. Primary School', 'J.J. Technical School', 'L.Y. Street', 'L.Y. Street Crossing', 'No 73. Brickyard', 'No 73. Street', 'No 72. Street', 'No 73. Street', 'E.H. Temple', 'Hejiaba', 'Baoyangchang', 'L.L. Village', 'Kuangdamen', 'Xian Bridge', 'Niushikan', 'Bridge South', 'No 15. Middle School', 'Taomidong', 'D.G. Mount', 'Hongdaotang', 'T.J. 2nd Bridge North', 'I&C Building', 'Jinjingwan', "Wang's Shoe Market"]
+        let busline_info = d3.range(line_31.length).map((i) => {
+          return {'lineid': lineid,'index': i, 'name': line_31[i], 'color': buscolor[i]}
+        })
+        console.log('busline_info:', busline_info)
+        this.drawbusline(busline_info)
       })
-      this.drawbusline(busline_info)
+      
+
     },
     drawbusline(busline){
       let containerid = 'busrunningline',

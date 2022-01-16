@@ -2,7 +2,7 @@
   <Card class="card-spd">
     <p slot="title" style="text-align: left">
       <Icon type="ios-ionic-outline" />
-      Station Probability Density Detail
+      Bus Arrival Station Probability
     </p>
     <div id="stationPD">
       <div id="stationPD1"></div>
@@ -78,65 +78,68 @@ export default {
           containerHeight = document.getElementById(containerId).offsetHeight,
           margin = {'left': toolboxWidth* 0.05, 'right': toolboxWidth* 0.05, 'top': containerHeight * 0.15, 'bottom': containerHeight * 0.15}        
       let innerWidth = toolboxWidth - margin.left - margin.right,
+          innerHeight = toolboxHeight - margin.top - margin.bottom,
           tooltipHeight = toolboxHeight * 0.045,
           tooltipSubHeight = toolboxHeight * 0.095
         // Add title to graph
       
       let svg = d3.select('#' + containerId).append('svg')
-                  .attr('width', innerWidth).attr('height', containerHeight)
+                  .attr('width', toolboxWidth).attr('height', containerHeight)
                   .append('g')
                   .attr('transform', `translate(${margin.left},${margin.top})`)
       //explore tips
       svg.append("text")
               .attr("x", 0)
-              .attr("y", tooltipSubHeight)
+              .attr("y", tooltipSubHeight*0.1)
               .attr("text-anchor", "left")
               .style("font-size", "14px")
               .style("fill", "grey")
-              .style("max-width", 400)
-              .text("Explore tips:");
-      console.log(d3.range(4))
-      let generateRange = d3.range(4)
-      let tips = []
-      for(let i=0; i<generateRange.length; i++){
-        svg.append("text")
-                .attr("x", 0)
-                .attr("y", tooltipSubHeight)
-                .attr("text-anchor", "left")
-                .style("font-size", "14px")
-                .style("fill", "grey")
-                .style("max-width", 400)
-                .text("A short description of the take-away message of this chart.");
-      }
+              .style("max-width", 500)
+              .text("Tips: Cumulative Probability Distribution(CDF) & Probability Distribution(PDF)");
 
-      //pdf area
-      let img1=svg.append('g').append('image')
-          .attr('xlink:href','http://localhost:8080/static/bus.png')
-          .attr('width',20)
-          .attr('height',20)
-          .attr('x', innerWidth / 4.9)
-          .attr('y', -margin.top * 0.8);
 
+      let table=svg.append('g').append('image')
+          .attr('xlink:href','http://localhost:8080/static/legend/table.png')
+          .attr('height',containerHeight * 0.7)
+          .attr('x', innerWidth / 5)
+          .attr('y', tooltipSubHeight);
+
+
+
+      // rect color
+      let rectColor = ["#bf4063", "#ff8040", "#80ff00", "#0d8a20"]
+      
+      let legend_g = svg
+        .append("g")
+        .attr("transform", `translate(${0},${margin.top})`);
+
+      legend_g
+        .selectAll(".legend")
+        .data(rectColor)
+        .enter()
+        .append("rect")
+        .attr("class", "legend")
+        .attr("opacity", 0.7)
+        .attr("fill", (d) => d)
+        .attr("x", 0)
+        .attr("y", (d, i) => i * innerHeight / 4)
+        .attr("width", 20)
+        .attr("height", 10);
+
+      legend_g
+        .selectAll("text")
+        .data(['0.01 - 0.25','0.25 - 0.5','0.5 - 0.75','0.75 - 0.99'])
+        .join("text")
+        .text(d=>d)
+        .attr("font-size", 9)
+        .attr("x", 30)
+        .attr("y", (d, i) => i * innerHeight / 4 + 8)
+        .classed("trend-type", true)
+        .style("text-anchor", "start")
+        .style('fill', 'grey')
+        .style('font-weight', '700');
       
 
-
-
-      // svg.append("text")
-      //         .attr("x", 0)
-      //         .attr("y", tooltipHeight)
-      //         .attr("text-anchor", "left")
-      //         .style("font-size", "22px")
-      //         .text("LineGrid");
-
-      // // Add subtitle to graph
-      svg.append("text")
-              .attr("x", 0)
-              .attr("y", tooltipSubHeight)
-              .attr("text-anchor", "left")
-              .style("font-size", "14px")
-              .style("fill", "grey")
-              .style("max-width", 400)
-              .text("A short description of the take-away message of this chart.");
 
 
       
@@ -168,10 +171,10 @@ export default {
                   .attr('width', innerWidthA)
                   .attr('height', innerHeightA*0.4)
                   .attr('transform', `translate(${marginA.left},${marginA.top*0.15})`)
-          
+      let realstation = station - 2
           title_svg.append('text')
                   .attr('transform', `translate(${innerWidthA / 2.4},${innerHeightA*0.2})`)
-                  .text('Station - ' + station)
+                  .text('Station - ' + realstation)
 
           title_svg.append('rect')
                   .attr("x", innerWidthA / 2.4 - 15)
@@ -182,8 +185,31 @@ export default {
                   .style('stroke-width', '4')
                   .style('stroke', 'none')
                   .style('opacity', '0.8')
-   
+
+      let legend_svg = d3.select('#' + container).append('svg')
+                  .attr('width', marginA.left)
+                  .attr('height', height)
+                  .attr('transform', `translate(${-innerWidthA},${0})`)
+                  .style('position', 'absolute')
+            
+      //height = 289  -> 100
+
+      let legend_text = ['PDF', 'PDF', 'CDF']
+      legend_svg.selectAll('.ttext')
+              .data(legend_text).enter()
+              .append('text')
+              .attr('x', (d,i) => -height / 3 - height / 4.12 * i)
+              .attr('y', marginA.left / 1.37)
+              .attr("text-anchor", "start")
+              .attr("font-weight", "300")
+              .text((d) => d)
+              .attr("transform", "rotate(-90)")
+              .style('font-weight', 500)
+              .style('fill', 'grey')
+          
+      //图形
       //draw area
+
       let svg_area = d3.select('#' + container).append('svg')
                   .attr('width', innerWidthA)
                   .attr('height', innerHeightA)
@@ -200,10 +226,11 @@ export default {
                 .tickSize(innerWidthA)
                 .tickPadding(8 - innerWidthA)
       
-
+      //axis X
       let aX = svg_area.append("g")
                 .attr("class", "zoomAxis")
                 .call(xAxis_area);
+      //axis Y
       let aY = svg_area.append("g")
                 .attr("class", "zoomAxis")
                 .call(yAxis_area);
@@ -214,11 +241,26 @@ export default {
           .y1((d) => {return yScale_area(d.y)})
       let area_graph = svg_area.append('path')
               .datum(pdf)
+              .attr("class", "area_graph" + station)
               .attr('fill', '#cce5df')
               .attr('stroke', '#69b3a2')
               .attr('stroke-width', 1.5)
               .attr('d', area_generator)
 
+            // g
+            //   .append("text")
+            //   .attr("x", innerWidthA / 2.4 - 15 - 30)
+            //   .attr("y", innerHeightA * 0.08)
+            //   .attr("text-anchor", "start")
+            //   .attr("font-weight", "300")
+            //   .text("Station")
+            //   .classed("trend-type", true)
+            //   .attr("transform", "rotate(-90)")
+            //   .style('font-weight', 500)
+            //   .style('fill', 'grey')
+      
+      
+      //渐变
       //draw color graident
       let marginG = {top: height*0.25,  bottom: height*0.5, left: width*0.05, right: width*0.05, transtop: 0},
           innerWidthG = width - marginG.left - marginG.right,
@@ -229,8 +271,11 @@ export default {
                   .attr('height', innerHeightG)
                   .style('border', '0.5px solid black')
                   .attr('transform', `translate(${marginG.left}, ${marginG.transtop})`)
-      
-      let linearGradient = svg_gradient.append('defs').append('linearGradient').attr('id', 'gradient')
+      let svg_gradient_g = svg_gradient.append('g')
+
+      let linearGradient = svg_gradient_g.append('defs').attr('id', 'ggradient' + station)
+                  .append('linearGradient')
+                  .attr('id', 'gradient' + station)
                   .attr('x1', "0%")
                   .attr('y1', "50%")
                   .attr('x2', "100%")
@@ -254,18 +299,23 @@ export default {
                 .ticks(2)
                 .tickSize(innerWidthG)
                 .tickPadding(8 - innerWidthG);
-      let view = svg_gradient.append('rect')
-                .attr("class", "view")
+      let view = svg_gradient_g.append('rect')
+                .attr('id', 'vview' + station)
                 .attr("x", 0.5)
                 .attr("y", 0.5)
                 .attr("width", innerWidthG - 1)
-                .attr("height", innerHeightG - 1);
-      let gX = svg_gradient.append("g")
+                .attr("height", innerHeightG - 1)
+                .style('fill', "url(#gradient" + station + ")");
+      
+      let axis_svg_g = svg_gradient.append('g')
+      
+      let gX = axis_svg_g.append("g")
                 .attr("class", "zoomAxis")
                 .call(xAxis_gradient);
-      let gY = svg_gradient.append("g")
+      let gY = axis_svg_g.append("g")
                 .attr("class", "zoomAxis")
                 .call(yAxis_gradient);
+      
       
       //parallel cdf
       let marginC = {top: height*0.25,  bottom: height*0.5, left: width*0.05, right: width*0.05, transtop: 0},
@@ -344,6 +394,7 @@ export default {
           return d
         })
         .join("rect")
+        .attr('class', 'cdf_g' + station)
         .attr("x", (d) => xScale_cdf(d.startTime))
         .attr("y", (d) => (innerHeightC - barhight) / 2)
         // .attr("y", (d) => yScale_cdf(d.name) + yScale_cdf.bandwidth() / 2 - 15)
@@ -352,30 +403,141 @@ export default {
         .attr("height", barhight)
  
 
-
       // zoom related
-      let zoom_gradient = d3.zoom()
+
+
+      let zoom_gradient = function(mes){
+        return d3.zoom()
         .scaleExtent([1,5])
         .translateExtent([[0, 0], [innerWidthG, innerHeightG]])
-        .on("zoom", zoomed_gradient)
+        .on("zoom", (event) => zoomed_gradient(event, mes))
+      }
 
-      svg_cdf_g.call(zoom_gradient);
-      svg_gradient.call(zoom_gradient)
-      svg_area.call(zoom_gradient)
+      svg_cdf_g.call(zoom_gradient(station))
+      svg_gradient.call(zoom_gradient(station))
+      svg_area.call(zoom_gradient(station))
 
-      function zoomed_gradient(event, d) {
+      function zoomed_gradient(event, mes) {
         
-        area_graph.attr("transform", event.transform);
-        view.attr("transform", event.transform);
-        svg_cdf_g.attr("transform", event.transform);
+        let new_x = event.transform.rescaleX(xScale_area),
+            new_y = event.transform.rescaleY(yScale_area),
+            old_y_domain_area = yScale_area.domain(),
+            old_y_domain_cdf = yScale_cdf.domain(),
+            old_y_domain_gradient = yScale_gradient.domain()
+            
+        let new_y_domain_area = new_y.domain()
+            new_y.domain([old_y_domain_area[0], old_y_domain_area[1]])
 
+        let color_x = event.transform.rescaleX(xScale_area);
+            color_x.range([0,1])
+
+        // area
+        // 先清空
+
+        d3.selectAll(".area_graph" + mes).remove();
+
+        let area_generator = d3.area()
+            .x((d) => new_x(new Date('2020-01-01 ' + d.x)))
+            .y0(new_y(0))
+            .y1((d) => new_y(d.y))
+        
+        area_graph = svg_area
+          .append("path")
+          .datum(pdf)
+          .attr("class", "area_graph"  + mes)
+          .attr("fill", "#cce5df")
+          .attr("stroke", "#69b3a2")
+          .attr("stroke-width", 1.5)
+          .attr("d", area_generator);
+        
+        // rect
+        // 先清空
+        d3.selectAll('.cdf_g' + mes).remove();
+        //值域替换
+
+        svg_cdf_g.append("g")
+          .selectAll("g")
+          .data((d) =>
+            Object.keys(ppfdata[d]).map((s) => {
+              return ppfdata[d][s]
+                .map((t, i) => {
+                  return i < ppfdata[d][s].length - 1
+                    ? {
+                        name: "Station " + d,
+                        startTime: new Date("2020-01-01 " + t),
+                        endTime: new Date("2020-01-01 " + ppfdata[d][s][i + 1]),
+                      }
+                    : null;
+                })
+                .filter((k) => k);
+            })
+          )
+          .join("g")
+          .selectAll("rect")
+          .data(d =>{
+            return d
+          })
+          .join("rect")
+          .attr('class', 'cdf_g' + mes)
+          .attr("x", (d) => new_x(d.startTime))
+          .attr("y", (d) => (innerHeightC - barhight) / 2)
+          // .attr("y", (d) => yScale_cdf(d.name) + yScale_cdf.bandwidth() / 2 - 15)
+          .attr("fill", (d, i) => rectColor[i])
+          .attr("width", (d) => new_x(d.endTime) - new_x(d.startTime))
+          .attr("height", barhight)
+
+        // gradient
+        // 先清空
+        d3.selectAll('#ggradient' + mes).remove();
+        d3.selectAll('#vview' + mes).remove();
+
+        linearGradient = svg_gradient_g.append('defs').attr('id', 'ggradient'+ mes)
+                  .append('linearGradient')
+                  .attr('id', 'gradient' + mes)
+                  .attr('x1', "0%")
+                  .attr('y1', "50%")
+                  .attr('x2', "100%")
+                  .attr('y2', "50%")
+        
+        linearGradient.append('stop')
+          .attr('offset', 0)
+          .attr('stop-color', colorScale(pdf_min))
+        
+        //构造渐变
+        for(let i=0; i<pdf_len; i++){
+          linearGradient.append('stop')
+            .attr('offset', color_x(new Date('2020-01-01 ' + pdf[i].x)))
+            .attr('stop-color', colorScale(pdf[i].y))
+        }
+
+        linearGradient.append('stop')
+          .attr('offset', 1)
+          .attr('stop-color', colorScale(pdf_min))
+
+        view = svg_gradient_g.append('rect')
+                .attr('id', 'vview'+ mes)
+                // .attr("class", "view")
+                .attr("x", 0.5)
+                .attr("y", 0.5)
+                .attr("width", innerWidthG - 1)
+                .attr("height", innerHeightG - 1)
+                .style('fill', "url(#gradient" + mes + ")");
+
+
+
+        
+        // area_graph.attr("transform", event.transform);
+        // view.attr("transform", event.transform);
+        // svg_cdf_g.attr("transform", event.transform);
+
+
+        //坐标轴
         aX.call(xAxis_area.scale(event.transform.rescaleX(xScale_area)));
-        aY.call(yAxis_area.scale(event.transform.rescaleY(yScale_area)));
-
+        // aY.call(yAxis_area.scale(event.transform.rescaleY(yScale_area)));
         gX.call(xAxis_gradient.scale(event.transform.rescaleX(xScale_gradient)));
-        gY.call(yAxis_gradient.scale(event.transform.rescaleY(yScale_gradient)));
-
+        // gY.call(yAxis_gradient.scale(event.transform.rescaleY(yScale_gradient)));
         cX.call(xAxis_cdf.scale(event.transform.rescaleX(xScale_cdf)));
+
       }
     
       //https://bl.ocks.org/mbostock/db6b4335bf1662b413e7968910104f0f
@@ -384,7 +546,6 @@ export default {
       //https://github.com/d3/d3-zoom/blob/v3.0.0/README.md#zoom-transforms
 
 
-      
     },
   },
 };
@@ -420,8 +581,7 @@ export default {
   position:relative;
   float:left;
   width: 100%;
-  height: 10%;
-  border: 1px solid blue;
+  height: 12%;
 }
 
 #stationPD1{
@@ -429,7 +589,6 @@ export default {
   float:left;
   width: 100%;
   height: 28%;
-  border: 1px solid red;
 }
 
 #stationPD2{
@@ -437,19 +596,15 @@ export default {
   float:left;
   width: 100%;
   height: 28%;
-  border: 1px solid blue;
 }
 
 #stationPD3{
+
+
   position:relative;
   float:left;
   width: 100%;
   height: 28%;
-  border: 1px solid black;
-}
-
-.view {
-  fill: url(#gradient);
 }
 
 .zoomAxis{

@@ -41,7 +41,8 @@ export default {
           .attr("text-anchor", "left")
           .style("font-size", "14px")
           .style("fill", "grey")
-          .text("A short description of the take-away message of this chart.");
+          .text("Provide bus station details through probability.");
+          //.text("Cumulative probability distribution(CDF) & Probability distribution function(PDF).");
   }
 };
 </script>

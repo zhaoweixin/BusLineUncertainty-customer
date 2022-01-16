@@ -153,11 +153,12 @@ export default class Draw {
             // title
             this.svg.append('text')
                 .attr('id', 'Title1')
-                .attr('x', that.margin.left)
+                .attr('x', that.margin.left / 1.5)
                 .attr('y', that.margin.top / 1.5)
                 .style('text-anchor', 'left')
-                .style('font-size', '16px')
+                .style('font-size', '14px')
                 .style('font-weight', 500)
+                .style('fill', 'grey')
                 .text('UpLine')
             
 

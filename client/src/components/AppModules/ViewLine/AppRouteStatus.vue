@@ -64,7 +64,6 @@ export default {
 
         //上行线的数组
         let darray = Draw.getArray(array);
-        console.log('darray:',darray)
 
         //这里是获得上行线
         const pict = new Draw.constructor([], car, date, station, darray, that.containerId, that.containerHeadId)

@@ -71,7 +71,7 @@ export default {
         .attr("class", "legend")
         .attr("opacity", 0.7)
         .attr("fill", (d, i) => rectColor[i])
-        .attr("cx", (d, i) => i * 120)
+        .attr("cx", (d, i) => margin.left * i * 3)
         .attr("cy", -margin.top / 2)
         .attr("r", 5);
 
@@ -81,10 +81,13 @@ export default {
         .join("text")
         .text(d=>d)
         .attr("font-size", 10)
-        .attr("x", (d, i) => i * 118 + 15)
+        .attr("x", (d, i) => margin.left * i * 3 + 15)
         .attr("y", -margin.top / 2 + 3.5)
         .classed("trend-type", true)
-        .style("text-anchor", "start");
+        .style("text-anchor", "start")
+        .style('font-size', 12)
+        .style('fill', 'grey')
+        .style('font-weight', 500);
 
       let g = svg.append("g").attr("clip-path", "url(#clip)");
 
@@ -117,6 +120,8 @@ export default {
             .classed("trend-type", true)
             .style("text-anchor", "middle")
             .attr("transform", "rotate(0)")
+            .style('font-weight', 500)
+            .style('fill', 'grey')
         });
 
       let gx = g.append("g").call(xAxis, x);
@@ -136,10 +141,12 @@ export default {
             .attr('y', -30)
             .attr("text-anchor", "start")
             .attr("font-weight", "500")
-            .text("Confidence Interval")
+            .text("Confidence Interval (min)")
             .classed("trend-type", true)
             .style("text-anchor", "middle")
             .attr("transform", "rotate(-90)")
+            .style('font-weight', 500)
+            .style('fill', 'grey')
         );
 
       let grid = (g, x) =>

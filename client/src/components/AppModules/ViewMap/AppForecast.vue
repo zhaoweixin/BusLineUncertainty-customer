@@ -120,22 +120,15 @@ export default {
                   .append('g')
                   .attr('transform', `translate(${margin.left},${margin.top})`)
 
+      // Add subtitle to graph
       svg.append("text")
               .attr("x", 0)
               .attr("y", tooltipHeight)
               .attr("text-anchor", "left")
-              .style("font-size", "22px")
-              .text("LineChart");
-
-      // Add subtitle to graph
-      svg.append("text")
-              .attr("x", 0)
-              .attr("y", tooltipSubHeight)
-              .attr("text-anchor", "left")
               .style("font-size", "14px")
               .style("fill", "grey")
               .style("max-width", 400)
-              .text("A short description of the take-away message of this chart.");
+              .text("Enter the car no, departure and target station, departure time to predict bus arrival time.");
     },
     Commite() {
       document.getElementById('newmap').innerHTML = "";
@@ -269,6 +262,8 @@ export default {
               .text("Station")
               .classed("trend-type", true)
               .attr("transform", "rotate(-90)")
+              .style('font-weight', 500)
+              .style('fill', 'grey')
           );
 
         //现在开始绘制折线图
@@ -339,10 +334,12 @@ export default {
           .join("text")
           .text((d) => d)
           .attr("font-size", 13.5)
-          .attr("x", 228.5)
+          .attr("x", 200)
           .attr("y", 5)
           .classed("trend-type", true)
-          .style("text-anchor", "start");
+          .style("text-anchor", "start")
+          .style('font-weight', 500)
+          .style('fill', 'grey')
 
         g.selectAll(".legend")
           .data(["1", "2", "3", "4"])
@@ -523,7 +520,7 @@ export default {
   position: relative;
   float: left;
   width: 100%;
-  height: 40%;
+  height: 25%;
 }
 
 #overviewtooltip_form{
