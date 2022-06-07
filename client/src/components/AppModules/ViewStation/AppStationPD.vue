@@ -52,16 +52,16 @@ export default {
         that.station_detail[station] = pdf
       })
     }).then(()=>{
-      let station1 = 2,
-          station2 = 3,
-          station3 = 4,
+      let station1 = 6,
+          station2 = 7,
+          station3 = 8,
           container1 = 'stationPD1',
           container2 = 'stationPD2',
           container3 = 'stationPD3';
       that.$axios.get("ppf_data").then((ppf_data) => {
-        let stations1 = Object.keys(ppf_data.data).slice(0, 1),
-            stations2 = Object.keys(ppf_data.data).slice(1, 2),
-            stations3 = Object.keys(ppf_data.data).slice(2, 3);
+        let stations1 = Object.keys(ppf_data.data).slice(4, 5),
+            stations2 = Object.keys(ppf_data.data).slice(5, 6),
+            stations3 = Object.keys(ppf_data.data).slice(6, 7);
 
         that.area(station1, container1, ppf_data.data, stations1)
         that.area(station2, container2, ppf_data.data, stations2)
@@ -157,6 +157,8 @@ export default {
           x_scale_max = '2020-01-01 22:00',
           colorrange = ['#FFFFFF', 'green'],
           colorScale = d3.scaleLinear().domain([pdf_min, pdf_max]).range(colorrange);
+  
+
       // area
       // height 0.2
 

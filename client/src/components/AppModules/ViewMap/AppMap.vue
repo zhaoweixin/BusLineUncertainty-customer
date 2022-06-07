@@ -50,7 +50,7 @@ export default {
      let height=500;
      let marign={top:10,bottom:10,left:10,right:10}
      let newsvg=d3.select('#map-legend').append('svg').attr('width',30).attr('height',30).attr('transform',`translate(${0},${0})`)
-      
+    console.log(111)
       // '#FFB6C1','#FA8072','#FF6347'
       let color=['#FFB6C1','#FA8072','#FF6347']
      const g=newsvg.append('g').selectAll('rect').data([1,2,3]).join('rect').attr('x',55)
@@ -92,7 +92,7 @@ export default {
 
           let realdata=Object.values(newObject)
           
-          console.log(1)
+          console.log(3)
 
           //获得1452个站点的经纬数组
           let geoArray=[]

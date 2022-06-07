@@ -152,6 +152,14 @@ export default {
       let yScale = d3.scaleLinear().domain([indexmin, indexmax]).range([0, innerHeight * 0.9]),
           colorScale = d3.scaleLinear().domain([colormin, colormax]).range(['green', 'red'])
       
+        console.log('colorScale')
+        let colortempnum = 5,
+            colortemp = (colormax - colormin) / colortempnum
+        for(let i=0; i<=colortempnum; i++){
+            console.log(colorScale(colormin + colortemp * i))
+        }
+
+      
       let img1=svg.append('g').append('image')
           .attr('xlink:href','http://localhost:8080/static/bus.png')
           .attr('width',20)

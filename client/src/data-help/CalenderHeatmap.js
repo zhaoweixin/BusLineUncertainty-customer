@@ -123,7 +123,11 @@ export default class CalenderHeatmap {
         const myColor = d3.scaleLinear()
             .domain([value_min, value_max])
             .range(["#80ff00", "#ff8040"])
+
+
         
+        // orange rgb(255,128,64)
+        // light green rgb(128,255,0)
         //["#bf4063", "#ff8040", "#80ff00", "#0d8a20"]
 
         const tooltip = d3.select("#" + container)
